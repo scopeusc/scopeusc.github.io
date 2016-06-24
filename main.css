@@ -11,7 +11,6 @@ body {
 
 .jumbotron {
     height: 100%;
-    background-image: url(http://i.imgur.com/vFvf3.gif);
     background-size: cover;
     margin: 0;
     padding: 0px;
@@ -25,14 +24,14 @@ nav {
 }
 
 .navbar a {
-    color: #fff;
+    color: rgb(103,52,209);
     margin: 15px 10px;
     padding: 7px 10px;
     height: 40px;
     width: 150px;
     border-width: 1px;
     border-style: solid;
-    border-color: hsla(0,0%,100%,.6);
+    border-color: rgba(103,52,209,.6);
     font-size: 15px;
     background-color: transparent;
     font-weight: 100;
@@ -40,21 +39,21 @@ nav {
 }
 
 .navbar a:hover {
-    background-color: hsla(0,0%,100%,.6);
-    color: #1c1c1c;
+    background-color: rgba(103,52,209,.6);
+    color: #fff;
     font-weight: 300;
 }
 
 .overlay {
     height: 100%;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(255,255,255,.7);
     position: relative;
 }
 
 .logo {
     font-weight: 100;
     text-align: center;
-    color: #00B8A9;
+    color: rgb(103,52,209);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -62,14 +61,14 @@ nav {
 }
 
 .logo h1 {
-    color: #fff;
+    color: rgb(103,52,209);
     font-size: 10em;
     font-weight: 300;
 }
 
 .logo p {
     font-size: 2.5em;
-    color: #fff;
+    color: rgb(103,52,209);
 }
 
 .scred {
@@ -97,24 +96,24 @@ nav {
 }
 
 .learn-more a {
-    color: #1c1c1c;;
+    color: #fff;
     margin: 15px 10px;
     padding: 7px 10px;
     height: 40px;
     width: 150px;
     border-width: 1px;
     border-style: solid;
-    border-color: hsla(0,0%,100%,1);
+    border-color: rgba(103,52,209, .6);
     font-size: 15px;
     font-weight: 300;
-    background-color: hsla(0,0%,100%,1);
+    background-color: rgba(103,52,209, .6);
     transition: all 0.3s ease;
 }
 
 .learn-more:hover a {
-    background-color: hsla(0,0%,100%,.6);
-    border-color: hsla(0,0%,100%,.6);
-    color: #1c1c1c;
+    background-color: rgba(103,52,209, .4);
+    border-color: rgba(103,52,209, .4);
+    color: #fff;
 }
 
 @media (max-width: 34em) {

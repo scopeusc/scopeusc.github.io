@@ -22,17 +22,58 @@
 </header>
 <div class="jumbotron">
     <div class="overlay">
-        <div class="logo">
+        <div class="logo vert-horiz-center">
             <h1>{<span class="scred">s</span><span class="scgold">c</span>ope}</h1>
             <p>Learn. Hack. Build. Code.</p>
         </div>
         <div class="learn-more">
-            <a class="nav-link" href="#">LEARN MORE</a>
+            <a class="nav-link" id="learn-more" href="#">LEARN MORE</a>
         </div>
     </div>
 </div>
+<div class="jumbotron learn hidden">
+    <div class="overlay">
+        <div class="section-header vert-center col-md-6">
+            <h1>Learn</h1>
+            <p>Learn about the hottest frameworks, libraries, and languages with other computer science students.</p>
+        </div>
+    </div>
+</div>
+<div class="jumbotron build hidden">
+    <div class="overlay">
+    <div class="section-header vert-center col-md-offset-6">
+            <h1>Build</h1>
+            <p>Learn by building real projects with real code.</p>
+    </div>
+    </div>
+</div>
+<div class="jumbotron code hidden">
+    <div class="overlay">
+    <div class="section-header vert-center col-md-6">
+            <h1>Code</h1>
+            <p>Open up your terminal and your favorite text editor, they'll be used here.</p>
+    </div>
+    </div>
+</div>
+<div class="jumbotron friendship hidden">
+    <div class="overlay">
+    <div class="section-header vert-center">
+            <h1>Have Fun</h1>
+            <p>Meet new people, go on awesome retreats, and have a great time. We're in college after all.</p>
+    </div>
+    </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-<script src="main.js"></script>
+<script>
+$('#learn-more').click(function() {
+    $('.learn').removeClass('hidden');
+    $('.build').removeClass('hidden');
+    $('.code').removeClass('hidden');
+    $('.friendship').removeClass('hidden');
+    $('html, body').animate({scrollTop: $(".friendship").offset().top}, 6000);
+})
+</script>
 </body>
 </html>

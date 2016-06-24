@@ -1,0 +1,135 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400';
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+    height: 100%;
+    background-image: url(http://i.imgur.com/vFvf3.gif);
+    background-size: cover;
+    margin: 0;
+    padding: 0px;
+}
+
+nav {
+    text-align: center;
+    height: 100px;
+    background-color: rgba(0,0,0,0);
+    font-weight: 100;
+}
+
+.navbar a {
+    color: #fff;
+    margin: 15px 10px;
+    padding: 7px 10px;
+    height: 40px;
+    width: 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsla(0,0%,100%,.6);
+    font-size: 15px;
+    background-color: transparent;
+    font-weight: 100;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: hsla(0,0%,100%,.6);
+    color: #1c1c1c;
+    font-weight: 300;
+}
+
+.overlay {
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    position: relative;
+}
+
+.logo {
+    font-weight: 100;
+    text-align: center;
+    color: #00B8A9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 10em;
+    font-weight: 300;
+}
+
+.logo p {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.scred {
+    transition: all 0.3s ease;
+}
+
+.scgold {
+    transition: all 0.3s ease;
+}
+
+.logo:hover .scred {
+    color: #990000;
+}
+
+.logo:hover .scgold {
+    color: #FFCC00;
+}
+
+.learn-more {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    text-align: center;
+}
+
+.learn-more a {
+    color: #1c1c1c;;
+    margin: 15px 10px;
+    padding: 7px 10px;
+    height: 40px;
+    width: 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsla(0,0%,100%,1);
+    font-size: 15px;
+    font-weight: 300;
+    background-color: hsla(0,0%,100%,1);
+    transition: all 0.3s ease;
+}
+
+.learn-more:hover a {
+    background-color: hsla(0,0%,100%,.6);
+    border-color: hsla(0,0%,100%,.6);
+    color: #1c1c1c;
+}
+
+@media (max-width: 34em) {
+    .logo h1 {
+        font-size: 5em;
+    }
+
+    .logo p {
+        font-size: 1em;
+    }
+
+    .navbar a {
+        font-size: 15px;
+        margin: 2px;
+        width: 100%;
+        height: 40px;
+    }
+}

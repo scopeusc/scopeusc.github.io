@@ -10,13 +10,13 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:url" content="http://uscscope.com">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="main.css">
+</head>
 <body>
 <header>
     <nav class="navbar navbar-fixed-top navbar-light">
-        <a class="nav-link" href="#">LINK</a>
-        <a class="nav-link" href="#">ABOUT</a>
-        <a class="nav-link" href="#">SPONSORS</a>
+        <a class="nav-link" href="sponsors.html">SPONSORS</a>
         <a class="nav-link" href="#">CONTACT US</a>
     </nav>
 </header>
@@ -24,27 +24,47 @@
     <div class="overlay">
         <div class="logo vert-horiz-center">
             <h1>{<span class="scred">s</span><span class="scgold">c</span>ope}</h1>
-            <p>Learn. Hack. Build. Code.</p>
+            <p>Learn. Build. Code.</p>
         </div>
         <div class="learn-more">
-            <a class="nav-link" id="learn-more" href="#">LEARN MORE</a>
+            <a class="nav-link" id="learn-more-button" href="#">LEARN MORE</a>
+            <a class="nav-link" id="apply-button" href="#">APPLY FOR FALL</a>
         </div>
     </div>
 </div>
 <div class="jumbotron learn hidden">
     <div class="overlay">
-        <div class="section-header vert-center col-md-6">
-            <h1>Learn</h1>
-            <p>Learn about the hottest frameworks, libraries, and languages with other computer science students.</p>
+        <div class="section-header col-md-6">
+            <h1>What We Do</h1>
+            <p>We bring together a group of computer science students who want to learn new things, improve their resume, and prepare for a career as a computer scientist</p>
+        </div>
+        <div class="col-md-6">
+        <div class="description">
+            <p>Each member is placed into a group where they work with other students to learn something new by building a project over the course of the semester.</p>
+            <p>We also host retreats, industry speakers, hackathons, and more to encourage a culture of creation, hacking, and fun.</p>
+        </div>
+        <div class="learn-more">
+            <a class="nav-link" id="apply-button" href="#">APPLY FOR FALL</a>
+        </div>
         </div>
     </div>
 </div>
-<div class="jumbotron build hidden">
+<div class="jumbotron eboard">
     <div class="overlay">
-    <div class="section-header vert-center col-md-offset-6">
-            <h1>Build</h1>
-            <p>Learn by building real projects with real code.</p>
-    </div>
+        <div class="section-header eboard-header">
+            <h1 id="eboard-title">Who We Are</h1>
+            <p>Meet the team behind {scope}</p>
+        </div>
+        <div class="col-md-12 people">
+            <div class="person zach"><div class="overlay"></div></div>
+            <div class="person kelly"><div class="overlay"></div></div>
+            <div class="person alex"><div class="overlay"></div></div>
+            <div class="person dave"><div class="overlay"></div></div>
+            <div class="person dan"><div class="overlay"></div></div>
+        </div>
+        <div class="learn-more">
+            <a class="nav-link" id="apply-button" href="#">APPLY FOR FALL</a>
+        </div>
     </div>
 </div>
 <div class="jumbotron code hidden">
@@ -57,22 +77,25 @@
 </div>
 <div class="jumbotron friendship hidden">
     <div class="overlay">
-    <div class="section-header vert-center">
+    <div class="section-header vert-horiz-center">
             <h1>Have Fun</h1>
-            <p>Meet new people, go on awesome retreats, and have a great time. We're in college after all.</p>
+            <p>Meet new people, go on awesome retreats, and have a great time.</p>
     </div>
+    <div class="learn-more">
+            <a class="nav-link" id="apply-button" href="#">APPLY FOR FALL</a>
+        </div>
     </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 <script>
-$('#learn-more').click(function() {
+$('#learn-more-button').click(function() {
     $('.learn').removeClass('hidden');
     $('.build').removeClass('hidden');
     $('.code').removeClass('hidden');
     $('.friendship').removeClass('hidden');
-    $('html, body').animate({scrollTop: $(".friendship").offset().top}, 6000);
+    $('html, body').animate({scrollTop: $(".learn").offset().top}, 1000);
 })
 </script>
 </body>

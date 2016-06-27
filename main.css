@@ -34,7 +34,7 @@ nav {
     border-style: solid;
     border-color: rgba(103,52,209,.6);
     font-size: 15px;
-    background-color: transparent;
+    background-color: rgba(255,255,255,.5);
     font-weight: 100;
     transition: all 0.3s ease;
 }
@@ -66,6 +66,16 @@ nav {
 .section-header p {
     font-size: 2.5em;
     color: rgb(103,52,209);
+}
+
+.about-header {
+    font-weight: 100;
+    text-align: center;
+    color: rgb(103,52,209);
+}
+
+.about-header p {
+    font-size: 1.75em;
 }
 
 .vert-center {
@@ -120,7 +130,7 @@ nav {
     color: #FFCC00;
 }
 
-.learn-more {
+#learn-more-button {
     position: absolute;
     top: 75%;
     left: 50%;
@@ -128,8 +138,41 @@ nav {
     text-align: center;
 }
 
-.learn-more a {
+#apply-button {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -18%);
+    text-align: center;
     color: #fff;
+    background-color: rgba(103,52,209, .8);
+}
+
+#apply-button:hover {
+    background-color: rgba(103,52,209, .4);
+    border-color: rgba(103,52,209, .4);
+    color: #fff;
+}
+
+#gotoeboard {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+}
+
+#eboard-header {
+    font-size: 2em;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    text-align: center;
+}
+
+.learn-more a {
+    color: rgb(103,52,209);
     margin: 15px 10px;
     padding: 7px 10px;
     height: 40px;
@@ -139,11 +182,12 @@ nav {
     border-color: rgba(103,52,209, .6);
     font-size: 15px;
     font-weight: 300;
-    background-color: rgba(103,52,209, .6);
+    background-color: rgba(255,255,255, .6);
     transition: all 0.3s ease;
+    position: relative;
 }
 
-.learn-more:hover a {
+.learn-more a:hover {
     background-color: rgba(103,52,209, .4);
     border-color: rgba(103,52,209, .4);
     color: #fff;
@@ -176,4 +220,76 @@ nav {
 
 .code {
     background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+}
+
+.person {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    margin: 5px;
+    display: inline-block;
+}
+
+.people {
+    position: absolute;
+    padding: 10px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    text-align: center;
+}
+
+.person .overlay {
+    transition: all 0.3s ease;
+    background-color: rgba(255,255,255,0);
+}
+
+.person:hover .overlay {
+    background-color: rgba(255,255,255,.6);
+}
+
+.zach {
+    background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+}
+
+.kelly {
+    background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+}
+
+.alex {
+    background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+}
+
+.dave {
+    background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+}
+
+.dan {
+    background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+}
+
+#eboard-title {
+    font-size: 4em;
+}
+
+.eboard-header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.description p {
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(103,52,209);
+}
+
+.description {
+    padding: 7px;
+    margin-top: 30px;
+}
+
+.learn .col-md-6 {
+    height: 100%;
 }

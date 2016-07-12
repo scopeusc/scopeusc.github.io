@@ -16,15 +16,20 @@
 <body>
 <header>
     <nav class="navbar navbar-fixed-top navbar-light">
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+        &#9776;
+      </button>
+    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
         <a class="nav-link" href="sponsors.html">SPONSORS</a>
         <a class="nav-link" href="#">CONTACT US</a>
+    </div>
     </nav>
 </header>
-<div class="jumbotron">
+<div class="jumbotron" id="intro">
     <div class="overlay">
         <div class="logo vert-horiz-center">
             <h1>{<span class="scred">s</span><span class="scgold">c</span>ope}</h1>
-            <p>Learn. Build. Code.</p>
+            <span id="animatetext"></div>
         </div>
         <div class="learn-more">
             <a class="nav-link" id="learn-more-button" href="#">LEARN MORE</a>
@@ -34,36 +39,62 @@
 </div>
 <div class="jumbotron learn hidden">
     <div class="overlay">
-        <div class="section-header col-md-6">
+        <div class="section-header vert-horiz-center">
             <h1>What We Do</h1>
-            <p>We bring together a group of computer science students who want to learn new things, improve their resume, and prepare for a career as a computer scientist</p>
         </div>
+    </div>
+</div>
+<div class="about">
+<div class="container">
         <div class="col-md-6">
-        <div class="description">
-            <p>Each member is placed into a group where they work with other students to learn something new by building a project over the course of the semester.</p>
-            <p>We also host retreats, industry speakers, hackathons, and more to encourage a culture of creation, hacking, and fun.</p>
-        </div>
-        <div class="learn-more">
-            <a class="nav-link" id="apply-button" href="#">APPLY FOR FALL</a>
+            <div class="description">
+                <p>We bring together a group of computer science students who want to learn new things, improve their resume, and prepare for a career as a computer scientist</p>
+                <p>Each member is placed into a group where they work with other students to <strong>learn by building</strong> a project over the course of the semester.</p>
+                <p>We also host retreats, industry speakers, hackathons, and more to encourage an inclusive culture of creation, hacking, and fun.</p>
+            </div>
+        <div class="page-apply">
+            <a class="nav-link" href="#">APPLY FOR FALL</a>
         </div>
         </div>
     </div>
 </div>
+</div>
 <div class="jumbotron eboard">
     <div class="overlay">
-        <div class="section-header eboard-header">
-            <h1 id="eboard-title">Who We Are</h1>
-            <p>Meet the team behind {scope}</p>
+        <div class="section-header vert-horiz-center">
+            <h1>Who We Are</h1>
         </div>
-        <div class="col-md-12 people">
-            <div class="person zach"><div class="overlay"></div></div>
-            <div class="person kelly"><div class="overlay"></div></div>
-            <div class="person alex"><div class="overlay"></div></div>
-            <div class="person dave"><div class="overlay"></div></div>
-            <div class="person dan"><div class="overlay"></div></div>
-        </div>
-        <div class="learn-more">
-            <a class="nav-link" id="apply-button" href="#">APPLY FOR FALL</a>
+    </div>
+</div>
+<div class="team">
+    <div class="container section-header">
+            <h2>Meet the team behind {scope}</h2>
+            <div class="col-md-12 people">
+                <div class="person zach"><div class="overlay">
+                    <h1>Zach</h1>
+                    <p>Person in charge more or less</p>
+                </div></div>
+                <div class="person kelly"><div class="overlay">
+                    <h1>Kelly</h1>
+                    <p>Master creator of all projects</p>
+                </div></div>
+                <div class="person dan"><div class="overlay">
+                    <h1>Dan</h1>
+                    <p>legend says he once fought a bear</p>
+                </div></div>
+                <div class="person dave"><div class="overlay">
+                    <h1>David</h1>
+                    <p>for a social chair i guess he's pretty social</p>
+                </div></div>
+                <div class="person alex"><div class="overlay">
+                    <h1>Alex</h1>
+                    <p>while it is still up in the air, most agree he's a wizard</p>
+                </div></div>
+            </div>
+            <div class="page-apply">
+                <a class="nav-link" href="#">APPLY FOR FALL</a>
+            </div>
+            </div>
         </div>
     </div>
 </div>
@@ -81,22 +112,12 @@
             <h1>Have Fun</h1>
             <p>Meet new people, go on awesome retreats, and have a great time.</p>
     </div>
-    <div class="learn-more">
-            <a class="nav-link" id="apply-button" href="#">APPLY FOR FALL</a>
-        </div>
     </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/typed.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-<script>
-$('#learn-more-button').click(function() {
-    $('.learn').removeClass('hidden');
-    $('.build').removeClass('hidden');
-    $('.code').removeClass('hidden');
-    $('.friendship').removeClass('hidden');
-    $('html, body').animate({scrollTop: $(".learn").offset().top}, 1000);
-})
-</script>
+<script src="main.js"></script>
 </body>
 </html>

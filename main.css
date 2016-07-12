@@ -7,6 +7,7 @@ html {
 body {
     height: 100%;
     font-family: 'Lato', sans-serif;
+    background-color: #F5F5F5;
 }
 
 .jumbotron {
@@ -15,6 +16,10 @@ body {
     margin: 0;
     padding: 0px;
     position: relative;
+}
+
+#intro {
+    background-color: #FFFFFF;
 }
 
 nav {
@@ -69,9 +74,12 @@ nav {
 }
 
 .about-header {
+    margin: 0 auto;
+    padding-top: 200px;
     font-weight: 100;
     text-align: center;
     color: rgb(103,52,209);
+    max-width: 700px;
 }
 
 .about-header p {
@@ -109,9 +117,10 @@ nav {
     font-weight: 300;
 }
 
-.logo p {
+#animatetext {
     font-size: 2.5em;
     color: rgb(103,52,209);
+    display: inline;
 }
 
 .scred {
@@ -130,7 +139,8 @@ nav {
     color: #FFCC00;
 }
 
-#learn-more-button {
+
+.learn-more {
     position: absolute;
     top: 75%;
     left: 50%;
@@ -139,13 +149,34 @@ nav {
 }
 
 #apply-button {
-    position: absolute;
-    top: 82%;
-    left: 50%;
-    transform: translate(-50%, -18%);
-    text-align: center;
     color: #fff;
     background-color: rgba(103,52,209, .8);
+    margin-top: 30px;
+}
+
+.page-apply {
+    text-align: center;
+}
+
+.page-apply a {
+    color: rgb(103,52,209);
+    margin: 15px auto;
+    padding: 7px 10px;
+    height: 40px;
+    width: 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(103,52,209,.6);
+    font-size: 15px;
+    background-color: rgba(255,255,255,.5);
+    font-weight: 100;
+    transition: all 0.3s ease;
+}
+
+.page-apply a:hover {
+    background-color: rgba(103,52,209, .4);
+    border-color: rgba(103,52,209, .4);
+    color: #fff;
 }
 
 #apply-button:hover {
@@ -184,7 +215,7 @@ nav {
     font-weight: 300;
     background-color: rgba(255,255,255, .6);
     transition: all 0.3s ease;
-    position: relative;
+    text-align: center;
 }
 
 .learn-more a:hover {
@@ -210,11 +241,20 @@ nav {
     }
 }
 
+.team h2 {
+    font-weight: 100;
+}
+
+.team {
+    padding-top: 100px;
+    min-height: 600px;
+}
+
 .learn {
     background-image: url("http://gradadm.usc.edu/wp-content/uploads/2016/01/life-at-USC-Gentaro-3.jpg");
 }
 
-.build {
+.eboard {
     background-image: url("https://news.usc.edu/files/2015/09/ict1507sdkWEB-824x549.jpg");
 }
 
@@ -228,44 +268,58 @@ nav {
     border-radius: 10%;
     margin: 5px;
     display: inline-block;
-}
-
-.people {
-    position: absolute;
-    padding: 10px;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -45%);
+    background-position: center;
+    background-size: cover;
     text-align: center;
 }
 
+.person h1 {
+    font-size: 20px;
+}
+
+.person p {
+    font-size: 15px;
+}
+
+.people {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sponsor-button {
+    margin-top: 100px;
+}
+
 .person .overlay {
+    opacity: 0;
     transition: all 0.3s ease;
     background-color: rgba(255,255,255,0);
+    padding: 20px;
 }
 
 .person:hover .overlay {
-    background-color: rgba(255,255,255,.6);
+    background-color: rgba(255,255,255,.9);
+    opacity: 1;
 }
 
 .zach {
-    background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13064610_1010898429005656_4779134917401374488_o.jpg");
 }
 
 .kelly {
-    background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13173305_857022811074171_4931483761292402551_o.jpg");
 }
 
 .alex {
-    background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/11741158_1069226316439592_1219946025577935145_o.jpg");
 }
 
 .dave {
-    background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13483012_494049610765263_3513134062066221774_o.jpg");
 }
 
 .dan {
-    background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/12719393_10208579501823821_452420458810324247_o.jpg");
 }
 
 #eboard-title {
@@ -288,8 +342,35 @@ nav {
 .description {
     padding: 7px;
     margin-top: 30px;
+    text-align: justify;
 }
 
 .learn .col-md-6 {
     height: 100%;
+}
+
+/* Animated Text */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size: 2.5em;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

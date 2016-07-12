@@ -1,5 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:100,300,400';
 
+/*
+* Note to future devs: this CSS file is a lil bit messy ¯\_(ツ)_/¯
+* http://scopeusc.com
+*/
+
+
 html {
     height: 100%;
 }
@@ -7,7 +13,7 @@ html {
 body {
     height: 100%;
     font-family: 'Lato', sans-serif;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 .jumbotron {
@@ -239,9 +245,21 @@ nav {
         width: 100%;
         height: 40px;
     }
+
+    .topic h1 {
+        font-size: 50px;
+    }
+
+    .jumbotron h1 {
+        font-size: 50px;
+    }
+
+    .jumbotron p {
+        font-size: 20px;
+    }
 }
 
-.team h2 {
+h2 {
     font-weight: 100;
 }
 
@@ -254,8 +272,12 @@ nav {
     background-image: url("http://gradadm.usc.edu/wp-content/uploads/2016/01/life-at-USC-Gentaro-3.jpg");
 }
 
-.eboard {
+.topic {
     background-image: url("https://news.usc.edu/files/2015/09/ict1507sdkWEB-824x549.jpg");
+}
+
+.topic .overlay {
+    padding: 100px;
 }
 
 .code {
@@ -333,20 +355,50 @@ nav {
     transform: translate(-50%, -70%);
 }
 
-.description p {
-    font-size: 30px;
-    font-weight: 100;
+.about {
+    font-size: 20px;
+    font-weight: 300;
     color: rgb(103,52,209);
+    margin-bottom: 30px;
 }
 
 .description {
-    padding: 7px;
-    margin-top: 30px;
     text-align: justify;
 }
 
 .learn .col-md-6 {
     height: 100%;
+}
+
+.about .col-md-6 {
+    padding: 7px;
+    margin-top: 30px;
+}
+
+.about h2 {
+    font-weight: 100;
+    color: rgb(103,52,209);
+}
+
+.section-title {
+    padding-top: 10px;
+    color: rgb(103,52,209);
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+}
+
+#motto {
+    padding: 20px;
+    color: rgb(103,52,209);
+}
+
+#motto h2 {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+    border: 1px rgb(103,52,209) solid;
 }
 
 /* Animated Text */

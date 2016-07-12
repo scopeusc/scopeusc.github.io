@@ -1,8 +1,3 @@
-// scrolls to learn mroe
-$('#learn-more').click(function() {
-    $('html, body').animate({scrollTop: $("#page").offset().top}, 2000);
-})
-
 // function to handle text typing animation
 $(function(){
     $("#animatetext").typed({
@@ -14,9 +9,5 @@ $(function(){
 });
 
 $('#learn-more-button').click(function() {
-    $('.learn').removeClass('hidden');
-    $('.build').removeClass('hidden');
-    $('.code').removeClass('hidden');
-    $('.friendship').removeClass('hidden');
-    $('html, body').animate({scrollTop: $(".learn").offset().top}, 1000);
+    $('html, body').animate({scrollTop: $(".about").offset().top}, 1000);
 })

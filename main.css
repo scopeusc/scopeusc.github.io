@@ -82,7 +82,7 @@ nav {
 .about-header {
     margin: 0 auto;
     padding-top: 200px;
-    font-weight: 100;
+    font-weight: 300;
     text-align: center;
     color: rgb(103,52,209);
     max-width: 700px;
@@ -363,6 +363,8 @@ h2 {
 }
 
 .description {
+    max-width: 600px;
+    padding: 10px;
     text-align: justify;
 }
 
@@ -425,4 +427,73 @@ h2 {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+/* Sponsorship Specific Things */
+
+.plan h1 {
+    font-weight: 300;
+}
+
+.plan .price {
+    color: white;
+}
+
+#purple {
+    background-color: rgb(103,52,209);
+    border: 10px rgb(103,52,209) solid;
+}
+
+.tier-description {
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.tier-description h1 {
+    font-weight: 100;
+}
+
+.sponsor-about {
+    text-align: center;
+}
+
+.sponsor-description h2 {
+    text-align: center;
+    color: black;
+    font-weight: 300;
+}
+
+.sponsor-description {
+    max-width: 600px;
+    padding: 10px;
+    display: block;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.sponsor-description {
+    color: black;
+}
+
+#gold {
+    background-color: #D4B483;
+    border: 10px #D4B483 solid;
+}
+
+#silver {
+    background-color: #E4DFDA;
+    border: 10px #E4DFDA solid;
+}
+
+#bronze {
+    background-color: #F4B393;
+    border: 10px #F4B393 solid;
+}
+
+.price {
+    padding: 20px;
 }

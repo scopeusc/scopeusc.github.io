@@ -11,3 +11,11 @@ $(function(){
 $('#learn-more-button').click(function() {
     $('html, body').animate({scrollTop: $(".about").offset().top}, 1000);
 })
+
+function hover(element) {
+    element.setAttribute('src', 'assets/logo-red.png');
+}
+function unhover(element) {
+    element.setAttribute('src', 'assets/logo-purp.png');
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "scope",
+  "homepage": "https://github.com/alexpareto/Scope",
+  "authors": [
+    "Daniel Kawalsky <dkawalsk@usc.edu>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.7"
+  }
+}

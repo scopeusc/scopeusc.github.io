@@ -1,0 +1,24 @@
+{
+  "name": "scope",
+  "version": "1.0.0",
+  "description": "Scope USC Website and Webapp Solution",
+  "main": "main.js",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://drmanhadan@github.com/alexpareto/Scope.git"
+  },
+  "author": "Daniel Kawalsky, Alex Pareto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexpareto/Scope/issues"
+  },
+  "homepage": "https://github.com/alexpareto/Scope#readme"
+}

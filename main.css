@@ -28,6 +28,29 @@ body {
     background-color: #FFFFFF;
 }
 
+#logo-image {
+    height: 200px;
+    width: 600px;
+    background-image: url(assets/logo-purp.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .3s ease-in-out;
+}
+
+#logo-image:hover {
+    background-image: url(assets/logo-red.png);
+}
+
+@media screen and (max-width: 550px)
+{
+    #logo-image {
+        height: 100px;
+        width: 400px;
+    }
+}
+
+
 nav {
     text-align: center;
     height: 100px;

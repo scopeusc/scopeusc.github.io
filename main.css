@@ -19,6 +19,7 @@ body {
 .jumbotron {
     height: 100%;
     background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0px;
     position: relative;

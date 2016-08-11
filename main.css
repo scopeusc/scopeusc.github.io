@@ -318,7 +318,7 @@ h2 {
 .person {
     margin: 5px;
     padding: 5px;
-    text-align: justify;
+    text-align: center;
     width: 200px;
 }
 
@@ -328,9 +328,23 @@ h2 {
 }
 
 .person p {
-    font-size: 15px;
+    font-size: 18px;
     color: #90949c;
+    text-align: justify;
 }
+
+@media screen and (max-width: 550px)
+{
+    .person p {
+        font-size: 18px;
+    }
+
+    .person {
+        width: 350px;
+    }
+}
+
+
 
 .people {
     text-align: center;

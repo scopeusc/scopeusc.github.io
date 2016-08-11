@@ -337,6 +337,7 @@ h2 {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #sponsor-button {

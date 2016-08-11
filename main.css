@@ -282,7 +282,7 @@ h2 {
 
 .team {
     padding-top: 100px;
-    min-height: 600px;
+    min-height: 700px;
 }
 
 .learn {
@@ -290,7 +290,7 @@ h2 {
 }
 
 .topic {
-    background-image: url("https://news.usc.edu/files/2015/09/ict1507sdkWEB-824x549.jpg");
+    background-image: url("http://mynewsla.com/wp-content/uploads/2014/09/MNLA_FilePhotos_OfficialsLAXUSC_0095.jpg");
 }
 
 .topic .overlay {
@@ -301,19 +301,30 @@ h2 {
     background-image: url("http://www.cse.ucsd.edu/sites/cse/files/cse/assets/news/ezTouchTeam.jpg");
 }
 
-.person {
+.person-image {
     height: 200px;
     width: 200px;
     border-radius: 10%;
-    margin: 5px;
     display: inline-block;
     background-position: center;
     background-size: cover;
+}
+
+.person .job {
+    font-weight: 400;
     text-align: center;
+}
+
+.person {
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+    width: 200px;
 }
 
 .person h1 {
     font-size: 20px;
+    text-align: center;
 }
 
 .person p {
@@ -323,6 +334,9 @@ h2 {
 .people {
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 #sponsor-button {
@@ -342,7 +356,7 @@ h2 {
 }
 
 .zach {
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13064610_1010898429005656_4779134917401374488_o.jpg");
+    background-image: url("https://scontent.fbos1-1.fna.fbcdn.net/t31.0-8/12970939_10153627822728736_4986401368498810360_o.jpg");
 }
 
 .kelly {
@@ -354,7 +368,7 @@ h2 {
 }
 
 .dave {
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13483012_494049610765263_3513134062066221774_o.jpg");
+    background-image: url("https://scontent.fbos1-1.fna.fbcdn.net/v/t1.0-9/13254318_1189144194438759_6207236477225886895_n.jpg?oh=0b6f6de2226d2494f89247001a78db57&oe=584D7BB9");
 }
 
 .dan {
@@ -420,6 +434,9 @@ h2 {
     border: 1px rgb(103,52,209) solid;
 }
 
+#apply-team {
+    bottom: 20px;
+}
 /* Animated Text */
 
 .typed-cursor{

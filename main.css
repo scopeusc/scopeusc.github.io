@@ -131,14 +131,6 @@ nav {
     display: inline;
 }
 
-.scred {
-    transition: all 0.3s ease;
-}
-
-.scgold {
-    transition: all 0.3s ease;
-}
-
 .logo:hover .scred {
     color: #990000;
 }
@@ -499,4 +491,10 @@ h2 {
 
 .price {
     padding: 20px;
+}
+
+div .logo-pic {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }

@@ -101,7 +101,6 @@ nav {
 
 .section-header p {
     font-size: 2.5em;
-    color: rgb(103,52,209);
 }
 
 .about-header {
@@ -313,6 +312,7 @@ h2 {
 .person .job {
     font-weight: 400;
     text-align: center;
+    color: rgb(103,52,209);
 }
 
 .person {
@@ -329,6 +329,7 @@ h2 {
 
 .person p {
     font-size: 15px;
+    color: #90949c;
 }
 
 .people {
@@ -390,7 +391,7 @@ h2 {
 .about {
     font-size: 20px;
     font-weight: 300;
-    color: rgb(103,52,209);
+    color: #90949c;
     margin-bottom: 30px;
 }
 
@@ -406,7 +407,6 @@ h2 {
 
 .about .col-md-6 {
     padding: 7px;
-    margin-top: 30px;
 }
 
 .about h2 {
@@ -423,7 +423,8 @@ h2 {
 }
 
 #motto {
-    padding: 20px;
+    padding-top: 20px;
+    margin-bottom: 5px;
     color: rgb(103,52,209);
 }
 
@@ -432,7 +433,6 @@ h2 {
     font-weight: 300;
     text-align: center;
     padding: 10px;
-    border: 1px rgb(103,52,209) solid;
 }
 
 #apply-team {

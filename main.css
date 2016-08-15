@@ -330,7 +330,7 @@ h2 {
 
 .person p {
     font-size: 18px;
-    color: #90949c;
+    color: #72777f;
     text-align: justify;
 }
 
@@ -338,6 +338,7 @@ h2 {
 {
     .person p {
         font-size: 18px;
+        color: ;
     }
 
     .person {

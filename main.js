@@ -12,6 +12,7 @@ $('#learn-more-button').click(function() {
     $('html, body').animate({scrollTop: $(".about").offset().top}, 1000);
 })
 
+/*
 $('.page-apply').click(function() {
     $('html, body').animate({scrollTop: $(".typeform-widget").offset().top}, 1000);
 })
@@ -19,6 +20,7 @@ $('.page-apply').click(function() {
 $('#apply-button').click(function() {
     $('html, body').animate({scrollTop: $(".typeform-widget").offset().top}, 1000);
 })
+*/
 
 /* @deprecated for now
 function hover(element) {

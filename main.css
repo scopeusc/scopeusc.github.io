@@ -555,3 +555,23 @@ div .logo-pic {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+/* Curriuclum section */
+
+.curr-header {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300;
+    color: #90949c;
+}
+
+.curr-header h2 {
+    color: rgb(103,52,209);
+    font-weight: 300;
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+    color: rgb(103,52,209);
+}

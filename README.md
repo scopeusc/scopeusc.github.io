@@ -16,4 +16,8 @@ At Scope, we also host retreats, industry speakers, hackathons, and more to enco
 
 ##Sponsors
 
-Interested in sponsoring Scope? Benefits include connections with smart students, access to resumes, and publicity. Send us an email at hello@scopeusc.com and we'd be happy to set up a time to chat further! 
+Interested in sponsoring Scope? Benefits include connections with smart students, access to resumes, and publicity. Send us an email at sponsors@scopeusc.com and we'd be happy to set up a time to chat further! 
+
+##Contact
+
+Questions? Comments? Recipe Ideas? Get in touch! Email us at hello@scopeusc.com

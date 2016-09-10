@@ -47,7 +47,19 @@ body {
 {
     #logo-image {
         height: 100px;
-        width: 400px;
+        width: 100%;
+    }
+
+    .overlay {
+      text-align: center;
+    }
+
+    .logo.vert-horiz-center {
+      margin-top: 50%;
+    }
+
+    .learn-more {
+      display: inline-block;
     }
 }
 
@@ -129,11 +141,13 @@ nav {
     transform: translateX(-50%);
 }
 
-.vert-horiz-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+@media screen and (min-width: 551px) {
+  .vert-horiz-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
 }
 
 .logo {
@@ -162,13 +176,14 @@ nav {
     color: #FFCC00;
 }
 
-
-.learn-more {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -25%);
-    text-align: center;
+@media screen and (min-width: 551px) {
+  .learn-more {
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -25%);
+      text-align: center;
+  }
 }
 
 #apply-button {

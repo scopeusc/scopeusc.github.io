@@ -606,10 +606,19 @@ div .logo-pic {
 }
 .facebook {
     width: 350px;
-    height: 200px;
+    height: 150px;
     background-image: url("assets/facebook.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
+    margin-bottom: 0;
+}
+
+.sponsorship h3 {
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 0;
+    margin-top: 0;
+    color: #90949c;
 }

@@ -575,3 +575,26 @@ div .logo-pic {
     text-align: center;
     color: rgb(103,52,209);
 }
+
+/* Sponsorship Section */
+.sponsorship {
+    margin-bottom: 100px;
+}
+
+.sponsorship #motto {
+    text-align: center;
+    font-weight: 300;
+}
+
+.sponsorship .silver-tier {
+    text-align: center;
+}
+.facebook {
+    width: 350px;
+    height: 200px;
+    background-image: url("assets/facebook.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}

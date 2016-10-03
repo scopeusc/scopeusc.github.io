@@ -615,10 +615,22 @@ div .logo-pic {
     margin-bottom: 0;
 }
 
+.codepath {
+    width: 350px;
+    height: 150px;
+    background-image: url("assets/codepath.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
 .sponsorship h3 {
     font-weight: 300;
     font-size: 20px;
     padding-top: 0;
     margin-top: 0;
+    margin-bottom: 20px;
     color: #90949c;
 }

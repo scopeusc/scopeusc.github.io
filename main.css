@@ -612,7 +612,7 @@ div .logo-pic {
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .codepath {
@@ -623,7 +623,7 @@ div .logo-pic {
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .sponsorship h3 {

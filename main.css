@@ -201,7 +201,7 @@ nav {
     margin: 15px auto;
     padding: 7px 10px;
     height: 40px;
-    width: 150px;
+    width: 170px;
     border-width: 1px;
     border-style: solid;
     border-color: rgba(103,52,209,.6);
@@ -245,7 +245,7 @@ nav {
     margin: 15px 10px;
     padding: 7px 10px;
     height: 40px;
-    width: 150px;
+    width: 170px;
     border-width: 1px;
     border-style: solid;
     border-color: rgba(103,52,209, .6);
@@ -394,7 +394,7 @@ h2 {
 }
 
 .kelly {
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13173305_857022811074171_4931483761292402551_o.jpg");
+    background-image: url("https://scontent.fbos1-1.fna.fbcdn.net/v/t31.0-8/13735572_896133810496404_1027589507706985852_o.jpg?oh=ab60e30aa02307bb4134d8b1ef0f524a&oe=58ECB0E5");
 }
 
 .alexp {
@@ -402,11 +402,11 @@ h2 {
 }
 
 .dave {
-    background-image: url("https://scontent.fbos1-1.fna.fbcdn.net/v/t1.0-9/13254318_1189144194438759_6207236477225886895_n.jpg?oh=0b6f6de2226d2494f89247001a78db57&oe=584D7BB9");
+    background-image: url("assets/members/dave-hat.jpg");
 }
 
 .dan {
-    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/12719393_10208579501823821_452420458810324247_o.jpg");
+    background-image: url("assets/members/dan.jpg");
 }
 
 #eboard-title {

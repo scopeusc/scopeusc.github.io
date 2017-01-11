@@ -625,6 +625,23 @@ div .logo-pic {
     background-repeat: no-repeat;
     display: inline-block;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.qualcomm {
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+    background-image: url("assets/qualcomm.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .sponsorship h3 {

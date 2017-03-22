@@ -25,6 +25,33 @@ body {
     position: relative;
 }
 
+.divider {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stats {
+    padding: 50px 0;
+}
+
+.stats p {
+    text-align: center;
+}
+
+.stats #motto {
+    padding: 0;
+}
+
+#divider-one {
+    background-image: url(images/twitter.jpg);
+}
+
+#divider-two {
+    background-image: url(images/selfie.jpg);
+}
+
 #intro {
     background-color: #FFFFFF;
 }
@@ -573,6 +600,10 @@ div .logo-pic {
 }
 
 /* Curriuclum section */
+
+.curriculum {
+    padding: 50px 0;
+}
 
 .curr-header {
     text-align: justify;

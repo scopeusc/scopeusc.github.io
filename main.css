@@ -351,8 +351,7 @@ h2 {
     display: inline-block;
     background-position: center;
     background-size: cover;
-    /*background-image: url("assets/logo-square.png");*/
-    background: #EDEDED;
+    background-image: url("assets/logo-square.png");
 }
 
 .person .job {
@@ -438,6 +437,34 @@ h2 {
     background-image: url("assets/members/dan.jpg");
 }
 */
+
+.eb-jonluca {
+    background-image: url('assets/eboard/jonluca.jpg');
+}
+
+.eb-willie {
+    background-image: url('assets/eboard/willie.jpg');
+}
+
+.eb-sam {
+    background-image: url('assets/eboard/sam.jpg');
+}
+
+.eb-anisha {
+    background-image: url('assets/eboard/anisha.jpg');
+}
+
+.eb-aliya {
+    background-image: url('assets/eboard/aliya.jpg');
+}
+
+.eb-alexl {
+    background-image: url('assets/eboard/alexl.png');
+}
+
+.eb-jerry {
+    background-image: url('assets/eboard/jerry.jpg');
+}
 
 #eboard-title {
     font-size: 4em;

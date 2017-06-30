@@ -346,11 +346,13 @@ h2 {
 .person-image {
     height: 200px;
     width: 200px;
+    margin: 0 auto;
     border-radius: 10%;
     display: inline-block;
     background-position: center;
     background-size: cover;
-    background-image: url("assets/logo-square.png");
+    /*background-image: url("assets/logo-square.png");*/
+    background: #EDEDED;
 }
 
 .person .job {
@@ -360,10 +362,10 @@ h2 {
 }
 
 .person {
-    margin: 5px;
-    padding: 5px;
     text-align: center;
-    width: 200px;
+    flex-basis: 25%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .person h1 {
@@ -377,7 +379,7 @@ h2 {
     text-align: justify;
 }
 
-@media screen and (max-width: 550px)
+@media screen and (max-width: 960px)
 {
     .person p {
         font-size: 18px;
@@ -385,7 +387,7 @@ h2 {
     }
 
     .person {
-        width: 350px;
+        flex-basis: 50%;
     }
 }
 
@@ -397,7 +399,6 @@ h2 {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 #sponsor-button {

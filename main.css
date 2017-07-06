@@ -346,6 +346,7 @@ h2 {
 .person-image {
     height: 200px;
     width: 200px;
+    margin: 0 auto;
     border-radius: 10%;
     display: inline-block;
     background-position: center;
@@ -360,10 +361,10 @@ h2 {
 }
 
 .person {
-    margin: 5px;
-    padding: 5px;
     text-align: center;
-    width: 200px;
+    flex-basis: 25%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .person h1 {
@@ -377,7 +378,7 @@ h2 {
     text-align: justify;
 }
 
-@media screen and (max-width: 550px)
+@media screen and (max-width: 960px)
 {
     .person p {
         font-size: 18px;
@@ -385,7 +386,7 @@ h2 {
     }
 
     .person {
-        width: 350px;
+        flex-basis: 50%;
     }
 }
 
@@ -397,7 +398,6 @@ h2 {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 #sponsor-button {
@@ -416,6 +416,7 @@ h2 {
     opacity: 1;
 }
 
+/* Fall 2016 - Spring 2017 EBoard
 .zach {
     background-image: url("assets/zach.jpg");
 }
@@ -434,6 +435,35 @@ h2 {
 
 .dan {
     background-image: url("assets/members/dan.jpg");
+}
+*/
+
+.eb-jonluca {
+    background-image: url('assets/eboard/jonluca.jpg');
+}
+
+.eb-willie {
+    background-image: url('assets/eboard/willie.jpg');
+}
+
+.eb-sam {
+    background-image: url('assets/eboard/sam.jpg');
+}
+
+.eb-anisha {
+    background-image: url('assets/eboard/anisha.jpg');
+}
+
+.eb-aliya {
+    background-image: url('assets/eboard/aliya.jpg');
+}
+
+.eb-alexl {
+    background-image: url('assets/eboard/alexl.png');
+}
+
+.eb-jerry {
+    background-image: url('assets/eboard/jerry.jpg');
 }
 
 #eboard-title {

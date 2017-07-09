@@ -5,7 +5,6 @@
 * http://scopeusc.com
 */
 
-
 html {
     height: 100%;
 }
@@ -45,11 +44,11 @@ body {
 }
 
 #divider-one {
-    background-image: url(images/twitter.jpg);
+    background-image: url(assets/twitter.jpg);
 }
 
 #divider-two {
-    background-image: url(images/selfie.jpg);
+    background-image: url(assets/selfie.jpg);
 }
 
 #intro {
@@ -89,7 +88,6 @@ body {
       display: inline-block;
     }
 }
-
 
 nav {
     text-align: center;
@@ -332,7 +330,7 @@ h2 {
 }
 
 .topic {
-    background-image: url("http://mynewsla.com/wp-content/uploads/2014/09/MNLA_FilePhotos_OfficialsLAXUSC_0095.jpg");
+    background-image: url(assets/bovard.jpg);
 }
 
 .topic .overlay {
@@ -714,171 +712,146 @@ div .logo-pic {
     color: #90949c;
 }
 
-/* people for members page */
-.adam {
-    background-image: url("assets/members/adam.jpg");
-}
-.adam:hover {
-    background-image: url("assets/members/adam-hat.jpg");
+/* Contact Page */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-.alex {
-    background-image: url("assets/members/alex.jpg");
-}
-.alex:hover {
-    background-image: url("assets/members/alex-hat.jpg");
-}
-
-.andrew {
-    background-image: url("assets/members/andrew.jpg");
-}
-.andrew:hover {
-    background-image: url("assets/members/andrew-hat.jpg");
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-.aneel {
-    background-image: url("assets/members/aneel.jpg");
-}
-.aneel:hover {
-    background-image: url("assets/members/aneel-hat.jpg");
-}
-
-.anisha {
-    background-image: url("assets/members/anisha.jpg");
-}
-.anisha:hover {
-    background-image: url("assets/members/anisha-hat.jpg");
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-.ashish {
-    background-image: url("assets/members/ashish.jpg");
-}
-.ashish:hover {
-    background-image: url("assets/members/ashish-hat.jpg");
-}
-
-.avery {
-    background-image: url("assets/members/avery.jpg");
-}
-.avery:hover {
-    background-image: url("assets/members/avery-hat.jpg");
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-.cameron {
-    background-image: url("assets/members/cameron.jpg");
-}
-.cameron:hover {
-    background-image: url("assets/members/cameron-hat.jpg");
-}
-
-.darwin {
-    background-image: url("assets/members/darwin.jpg");
-}
-.darwin:hover {
-    background-image: url("assets/members/darwin-hat.jpg");
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-.eli {
-    background-image: url("assets/members/eli.jpg");
-}
-.eli:hover {
-    background-image: url("assets/members/eli-hat.jpg");
-}
-
-.janson {
-    background-image: url("assets/members/janson.jpg");
-}
-.janson:hover {
-    background-image: url("assets/members/janson-hat.jpg");
-}
-.jon {
-    background-image: url("assets/members/jon.jpg");
-}
-.jon:hover {
-    background-image: url("assets/members/jon-hat.jpg");
-}
-.jonluca {
-    background-image: url("assets/members/jonluca.jpg");
-}
-.jonluca:hover {
-    background-image: url("assets/members/jonluca-hat.jpg");
-}
-.myrl {
-    background-image: url("assets/members/myrl.jpg");
-}
-.myrl:hover {
-    background-image: url("assets/members/myrl-hat.jpg");
+.contact-banner {
+    display: flex;
+    justify-content: center;
+    color: rgb(103,52,209);
+    margin: 25px;
 }
 
-.nikki {
-    background-image: url("assets/members/nikki.jpg");
-}
-.nikki:hover {
-    background-image: url("assets/members/nikki-hat.jpg");
+.contact-banner > h2 {
+    font-weight: 300;
+    font-size: 50px;
 }
 
-.sai {
-    background-image: url("assets/members/sai.jpg");
-}
-.sai:hover {
-    background-image: url("assets/members/sai-hat.jpg");
-}
-
-.stacey {
-    background-image: url("assets/members/stacey.jpg");
-}
-.stacey:hover {
-    background-image: url("assets/members/stacey-hat.jpg");
+.contact-body {
+    -webkit-animation: fadein 0.75s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0.75s; /* Firefox < 16 */
+        -ms-animation: fadein 0.75s; /* Internet Explorer */
+         -o-animation: fadein 0.75s; /* Opera < 12.1 */
+            animation: fadein 0.75s;
 }
 
-.szot {
- background-image: url("assets/members/szot.jpg");
-}
-.szot:hover {
-    background-image: url("assets/members/szot-hat.jpg");
-}
-
-.terrence {
-    background-image: url("assets/members/terrence.jpg");
-}
-.terrence:hover {
-    background-image: url("assets/members/terrence-hat.jpg");
+.contact-form {
+    border: 1px solid transparent;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    color: rgb(103,52,209);
 }
 
-.tim {
-    background-image: url("assets/members/tim.jpg");
-}
-.tim:hover {
-    background-image: url("assets/members/tim-hat.jpg");
+.contact-form hr {
+    margin: 0 50px;
 }
 
-.zech {
-    background-image: url("assets/members/zech.jpg");
-}
-.zech:hover {
-    background-image: url("assets/members/zech-hat.jpg");
-}
-
-.jerry {
-    background-image: url("assets/members/jerry.jpg");
-}
-.jerry:hover {
-    background-image: url("assets/members/jerry.jpg");
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+    font-weight: 200;
 }
 
-.avery {
-    background-image: url("assets/members/avery.jpg");
-}
-.avery:hover {
-    background-image: url("assets/members/avery-hat.jpg");
+.contact-info p {
+    font-size: 20px;
+    margin: 5px 10px;
+    font-weight: 300;
 }
 
-.cameron {
-    background-image: url("assets/members/cameron.jpg");
+.contact-name, .contact-email {
+    display: flex;
 }
-.cameron:hover {
-    background-image: url("assets/members/cameron-hat.jpg");
+
+.contact-info input {
+    margin: 5px 10px;
+}
+
+.contact-info input::placeholder {
+    color: rgb(103,52,209);
+}
+
+.contact-info input:focus {
+    border: 1px solid rgb(103,52,209);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact-message {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 50px;
+}
+
+.contact-message p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contact-message textarea {
+    resize: none;
+    font-weight: 200;
+}
+
+.contact-message textarea:focus{
+    border: 1px solid rgb(103,52,209);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-submit-button {
+    text-align: center;
+    color: rgb(103,52,209);
+    margin: 15px 10px;
+    padding: 7px 10px;
+    height: 40px;
+    width: 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(103,52,209,.6);
+    font-size: 15px;
+    background-color: rgba(255,255,255,.5);
+    font-weight: 100;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact-submit-button:hover {
+    background-color: rgba(103,52,209,.6);
+    color: #fff;
+    font-weight: 300;
 }
 
 
-.
+

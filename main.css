@@ -399,7 +399,25 @@ h2 {
 }
 
 #sponsor-button {
-    margin-top: 100px;
+    color: rgb(103,52,209);
+    margin: 15px 10px;
+    padding: 7px 10px;
+    height: 40px;
+    width: 170px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(103,52,209, .6);
+    font-size: 15px;
+    font-weight: 300;
+    background-color: rgba(255,255,255, .6);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+#sponsor-button:hover {
+    background-color: rgba(103,52,209, .4);
+    border-color: rgba(103,52,209, .4);
+    color: #fff;
 }
 
 .person .overlay {
@@ -602,6 +620,19 @@ h2 {
     color: black;
 }
 
+.sponsor-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.sponsor-footer h2 {
+    font-weight: 200;
+    color: rgb(103,52,209);
+}
+
 #gold {
     background-color: #D4B483;
     border: 10px #D4B483 solid;
@@ -657,8 +688,14 @@ div .logo-pic {
 }
 
 .sponsorship #motto {
+    padding-top: 75px;
     text-align: center;
     font-weight: 300;
+}
+
+.sponsorship #motto p {
+    font-size: 20px;
+    font-weight: 200;
 }
 
 .sponsorship .silver-tier {

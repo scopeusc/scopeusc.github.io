@@ -235,21 +235,100 @@
     </div>
 </div>
 <div class="sponsorship">
+    
     <div class="container">
+    
         <div class="col-md-12" id="motto">
             <h2>Sponsors</h2>
+            <p>Reach some of the best computer science students in the country through USC Scope's Sponsorship opportunities.</p>
             <p>Interested in sponsoring Scope? Contact <a href="mailto:sponsors@scopeusc.com">sponsors@scopeusc.com</a></p>
         </div>
         <div class="sponsor-logos">
-        <div class="silver-tier">
-            <h3>Silver</h3>
-            <div class="facebook"></div>
-            <h3>Bronze</h3>
-            <div class="codepath"></div>
-            <div class="qualcomm"></div>
+          <div class="silver-tier">
+              <h3>Silver</h3>
+              <div class="facebook"></div>
+              <h3>Bronze</h3>
+              <div class="codepath"></div>
+              <div class="qualcomm"></div>
+          </div>
         </div>
+        <div class="sponsor-footer">
+            <a class="nav-link" id="sponsor-button" href="#">SPONSOR TIERS</a>
         </div>
     </div>
+
+    <div class="plan col-md-12" id="purple">
+      <div class="col-md-4 price">
+          <h1>$10,000+</h1>
+      </div>
+      <div class="col-md-8 tier-description">
+          <h1>Purple Tier</h1>
+          <p>The absolute best way to get involved with computer science at USC.
+          <ul>
+              <li>All features of Gold plus:</li>
+              <li>We will host an exclusive hackathon at USC using ONLY your products/API</li>
+              <li>We will host a recruiting event in your name with your ambassadors</li>
+              <li>Your name will appear as a "platinum sponsor" on our website and other marketing materials</li>
+              <li>Invites to our industry nights</li>
+              <li>Connections and access to computer science and engineering talent at USC</li>
+              <li>Resume drop, receive a resume from all members of the club who have opted in (engineers and other computer science students)</li>
+          </ul>
+          </p>
+      </div>
+  </div>
+  <div class="plan col-md-12" id="gold">
+    <div class="col-md-4 price">
+        <h1>$5,000+</h1>
+    </div>
+    <div class="col-md-8 tier-description">
+        <h1>Gold Tier</h1>
+        <p>Grow your brand recognition on campus with your own hackathon.
+        <ul>
+            <li>All features of Silver plus:</li>
+            <li>We will host a hackathon at USC using your products/API  as the flagship with your brand as the main sponsor.</li>
+            <li>Send your ambassadors to judge and gain exposure on campus.</li>
+            <li>Your name will appear as a "gold tier sponsor" on our website and other marketing materials.</li>
+            <li>Invites to our industry nights</li>
+            <li>Connections and access to computer science and engineering talent at USC</li>
+            <li>Resume drop, receive a resume from all members of the club who have opted in (engineers and other computer science students)</li>
+        </ul>
+        </p>
+    </div>
+  </div>
+  <div class="plan col-md-12" id="silver">
+    <div class="col-md-4 price">
+        <h1>$1,000+</h1>
+    </div>
+    <div class="col-md-8 tier-description">
+        <h1>Silver Tier</h1>
+        <p>Our most popular tier.
+        <ul>
+            <li>All features of Bronze plus:</li>
+            <li>Your name will appear as a "silver tier sponsor" on our website and other marketing materials</li>
+            <li>Use of your tools/products/apis as sponsored items within one of our hackathons.</li>
+            <li>Invites to our industry nights</li>
+            <li>Connections and access to computer science and engineering talent at USC</li>
+            <li>Resume drop, receive a resume from all members of the club who have opted in (engineers and other computer science students)</li>
+        </ul>
+        </p>
+    </div>
+  </div>
+  <div class="plan col-md-12" id="bronze">
+    <div class="col-md-4 price">
+        <h1>$100+ or Access To Services/Products</h1>
+    </div>
+    <div class="col-md-8 tier-description">
+        <h1>Bronze Tier</h1>
+        <p>An awesome way to support computer science at USC.
+        <ul>
+            <li>Your name will appear as a "bronze sponsor" on our website and other marketing materials</li>
+            <li>Connections and access to computer science and engineering talent at USC</li>
+            <li>Get your product in front of students who have a potential to become lifelong users</li>
+            <li>Start to build a presence among college students of your product</li>
+        </ul>
+        </p>
+    </div>
+  </div>
 </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -259,6 +338,38 @@
 
   ga('create', 'UA-82550600-1', 'auto');
   ga('send', 'pageview');
+
+  var images = new Array();
+  function preload() {
+      for (i = 0; i < preload.arguments.length; i++) {
+          images[i] = new Image();
+          images[i].src = preload.arguments[i];
+      }
+  }
+
+  preload(
+      "assets/members/adam.jpg",
+      "assets/members/alex.jpg",
+      "assets/members/andrew.jpg",
+      "assets/members/aneel.jpg",
+      "assets/members/anisha.jpg",
+      "assets/members/ashish.jpg",
+      "assets/members/avery.jpg",
+      "assets/members/cameron.jpg",
+      "assets/members/darwin.jpg",
+      "assets/members/eli.jpg",
+      "assets/members/janson.jpg",
+      "assets/members/jon.jpg",
+      "assets/members/jonluca.jpg",
+      "assets/members/myrl.jpg",
+      "assets/members/nikki.jpg",
+      "assets/members/sai.jpg",
+      "assets/members/stacey.jpg",
+      "assets/members/szot.jpg",
+      "assets/members/terrence.jpg",
+      "assets/members/tim.jpg",
+      "assets/members/zech.jpg"
+  );
 
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

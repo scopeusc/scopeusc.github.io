@@ -10,7 +10,11 @@ $(function(){
 
 $('#learn-more-button').click(function() {
     $('html, body').animate({scrollTop: $(".about").offset().top}, 1000);
-})
+});
+
+$('#sponsor-button').click(function() {
+   $('html, body').animate({scrollTop: $("#purple").offset().top}, 1000); 
+});
 
 /*
 $('.page-apply').click(function() {
@@ -32,16 +36,17 @@ function unhover(element) {
 */
 
 <!--//--><![CDATA[//><!--
-var images = new Array()
+var images = new Array();
 function preload() {
     for (i = 0; i < preload.arguments.length; i++) {
         images[i] = new Image()
-        images[i].src = preload.arguments[i]
+        images[i].src = preload.arguments[i];
     }
 }
 preload(
     "assets/logo-red.png",
     "assets/logo-purp.png"
-)
+);
+
 //--><!]]>
 

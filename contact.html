@@ -43,6 +43,24 @@
     </div>
     </nav>
 </header>
+
+<!-- Modal -->
+<div id="contact-modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Thanks for your response!</h4>
+          <p>We'll be in contact soon.</p>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
 <div style="padding-top: 5em;">
     <!--<div class="col-md-12">
         <h2>Get in contact with us!</h2>
@@ -57,26 +75,28 @@
         <div class="contact-info">
           <p>Contact Information</p>
           <div class="form-group contact-name">
-            <input type="text" class="form-control" placeholder="First Name">
-            <input type="text" class="form-control" placeholder="Last Name">
+            <input type="text" class="form-control" placeholder="First Name" id="firstName">
+            <input type="text" class="form-control" placeholder="Last Name" id="lastName">
           </div>
           <div class="form-group contact-email">
-            <input type="text" class="form-control" placeholder="Email">
+            <input type="text" class="form-control" placeholder="Email" id="email">
           </div>
         </div>
         <hr />
         <div class="contact-message">
           <p>Enter your message below</p>
-          <textarea rows="7" class="form-control"></textarea>
+          <textarea rows="7" class="form-control" id="contactMessage"></textarea>
         </div>
         <div class="contact-submit">
-          <div class="contact-submit-button">
+          <div class="contact-submit-button" onclick="submit()">
             Submit
           </div>
         </div>
       </div>
     </div>
 
+    <!-- I hate this way of doing it almost as much as I hate bootstrap -->
+    <div id="modal-trigger" data-toggle="modal" data-target="#contact-modal" style="display: none;"></div>
 
 </div>
 <script>
@@ -87,9 +107,18 @@
 
   ga('create', 'UA-82550600-1', 'auto');
   ga('send', 'pageview');
-
-  
-
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+<script>
+  var config = {
+    apiKey: "AIzaSyD9Em1Cj3aMeFob_fgbKdzKm42WS7Q3T6c",
+    authDomain: "scope-website.firebaseapp.com",
+    databaseURL: "https://scope-website.firebaseio.com/",
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+<script src="contact.js"></script>
 </body>
 </html>

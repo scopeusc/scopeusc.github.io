@@ -219,6 +219,7 @@ nav {
 
 .page-apply {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .page-apply a {
@@ -246,6 +247,13 @@ nav {
     background-color: rgba(103,52,209, .4);
     border-color: rgba(103,52,209, .4);
     color: #fff;
+}
+
+.apply-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 #gotoeboard {
@@ -888,6 +896,45 @@ div .logo-pic {
     background-color: rgba(103,52,209,.6);
     color: #fff;
     font-weight: 300;
+    cursor: pointer;
+}
+
+#contact-modal {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+#contact-modal h4 {
+    font-weight: 300;
+    color: rgb(103,52,209);
+}
+
+#contact-modal p {
+    color: #72777f;
+}
+
+#contact-modal .btn {
+    color: rgb(103,52,209);
+    margin: 15px 10px;
+    padding: 7px 10px;
+    height: 40px;
+    width: 170px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(103,52,209, .6);
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: rgba(255,255,255, .6);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+#contact-modal .btn:hover {
+    background-color: rgba(103,52,209, .4);
+    border-color: rgba(103,52,209, .4);
+    color: #fff;
 }
 
 /* people for members page */

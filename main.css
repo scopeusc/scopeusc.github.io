@@ -890,5 +890,169 @@ div .logo-pic {
     font-weight: 300;
 }
 
+/* people for members page */
+.adam {
+    background-image: url("assets/members/adam.jpg");
+}
+.adam:hover {
+    background-image: url("assets/members/adam-hat.jpg");
+}
 
+.alex {
+    background-image: url("assets/members/alex.jpg");
+}
+.alex:hover {
+    background-image: url("assets/members/alex-hat.jpg");
+}
+
+.andrew {
+    background-image: url("assets/members/andrew.jpg");
+}
+.andrew:hover {
+    background-image: url("assets/members/andrew-hat.jpg");
+}
+
+.aneel {
+    background-image: url("assets/members/aneel.jpg");
+}
+.aneel:hover {
+    background-image: url("assets/members/aneel-hat.jpg");
+}
+
+.anisha {
+    background-image: url("assets/members/anisha.jpg");
+}
+.anisha:hover {
+    background-image: url("assets/members/anisha-hat.jpg");
+}
+
+.ashish {
+    background-image: url("assets/members/ashish.jpg");
+}
+.ashish:hover {
+    background-image: url("assets/members/ashish-hat.jpg");
+}
+
+.avery {
+    background-image: url("assets/members/avery.jpg");
+}
+.avery:hover {
+    background-image: url("assets/members/avery-hat.jpg");
+}
+
+.cameron {
+    background-image: url("assets/members/cameron.jpg");
+}
+.cameron:hover {
+    background-image: url("assets/members/cameron-hat.jpg");
+}
+
+.darwin {
+    background-image: url("assets/members/darwin.jpg");
+}
+.darwin:hover {
+    background-image: url("assets/members/darwin-hat.jpg");
+}
+
+.eli {
+    background-image: url("assets/members/eli.jpg");
+}
+.eli:hover {
+    background-image: url("assets/members/eli-hat.jpg");
+}
+
+.janson {
+    background-image: url("assets/members/janson.jpg");
+}
+.janson:hover {
+    background-image: url("assets/members/janson-hat.jpg");
+}
+.jon {
+    background-image: url("assets/members/jon.jpg");
+}
+.jon:hover {
+    background-image: url("assets/members/jon-hat.jpg");
+}
+.jonluca {
+    background-image: url("assets/members/jonluca.jpg");
+}
+.jonluca:hover {
+    background-image: url("assets/members/jonluca-hat.jpg");
+}
+.myrl {
+    background-image: url("assets/members/myrl.jpg");
+}
+.myrl:hover {
+    background-image: url("assets/members/myrl-hat.jpg");
+}
+
+.nikki {
+    background-image: url("assets/members/nikki.jpg");
+}
+.nikki:hover {
+    background-image: url("assets/members/nikki-hat.jpg");
+}
+
+.sai {
+    background-image: url("assets/members/sai.jpg");
+}
+.sai:hover {
+    background-image: url("assets/members/sai-hat.jpg");
+}
+
+.stacey {
+    background-image: url("assets/members/stacey.jpg");
+}
+.stacey:hover {
+    background-image: url("assets/members/stacey-hat.jpg");
+}
+
+.szot {
+ background-image: url("assets/members/szot.jpg");
+}
+.szot:hover {
+    background-image: url("assets/members/szot-hat.jpg");
+}
+
+.terrence {
+    background-image: url("assets/members/terrence.jpg");
+}
+.terrence:hover {
+    background-image: url("assets/members/terrence-hat.jpg");
+}
+
+.tim {
+    background-image: url("assets/members/tim.jpg");
+}
+.tim:hover {
+    background-image: url("assets/members/tim-hat.jpg");
+}
+
+.zech {
+    background-image: url("assets/members/zech.jpg");
+}
+.zech:hover {
+    background-image: url("assets/members/zech-hat.jpg");
+}
+
+.jerry {
+    background-image: url("assets/members/jerry.jpg");
+}
+.jerry:hover {
+    background-image: url("assets/members/jerry.jpg");
+}
+
+.avery {
+    background-image: url("assets/members/avery.jpg");
+}
+.avery:hover {
+    background-image: url("assets/members/avery-hat.jpg");
+}
+
+.cameron {
+    background-image: url("assets/members/cameron.jpg");
+}
+.cameron:hover {
+    background-image: url("assets/members/cameron-hat.jpg");
+}
 

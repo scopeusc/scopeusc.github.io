@@ -8,6 +8,14 @@ $(function(){
     });
 });
 
+$(window).scroll(function(){
+  if($(this).scrollTop() > 400){
+    $('#exCollapsingNavbar2').css({'display': 'none'});
+  }else{
+    $('#exCollapsingNavbar2').css({'display': 'block!important'});
+  }
+});
+
 $('#learn-more-button').click(function() {
     $('html, body').animate({scrollTop: $(".about").offset().top}, 1000);
 });

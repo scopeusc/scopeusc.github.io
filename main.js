@@ -1,27 +1,38 @@
 // function to handle text typing animation
-$(function(){
+$(function() {
     $("#animatetext").typed({
         strings: ["Learn new things.", "Build cool projects.", "Join an awesome community.", "Impress interviewers.", "Learn. Build. Code."],
         typeSpeed: 0,
-        callback: function() {
-        },
+        callback: function() {}
     });
 });
 
-$(window).scroll(function(){
-  if($(this).scrollTop() > 400){
-    $('#exCollapsingNavbar2').css({'display': 'none'});
-  }else{
-    $('#exCollapsingNavbar2').css({'display': 'block!important'});
-  }
+$(document).ready(function() {
+    console.log("Hi there.");
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 400) {
+            $('#exCollapsingNavbar2').css({
+                'display': 'none'
+            });
+        } else {
+            $('#exCollapsingNavbar2').css({
+                'display': 'block!important'
+            });
+        }
+    });
 });
 
+
 $('#learn-more-button').click(function() {
-    $('html, body').animate({scrollTop: $(".about").offset().top}, 1000);
+    $('html, body').animate({
+        scrollTop: $(".about").offset().top
+    }, 1000);
 });
 
 $('#sponsor-button').click(function() {
-   $('html, body').animate({scrollTop: $("#purple").offset().top}, 1000); 
+    $('html, body').animate({
+        scrollTop: $("#purple").offset().top
+    }, 1000);
 });
 
 /*
@@ -43,11 +54,11 @@ function unhover(element) {
 }
 */
 
-<!--//--><![CDATA[//><!--
-var images = new Array();
+var images = [];
+
 function preload() {
     for (i = 0; i < preload.arguments.length; i++) {
-        images[i] = new Image()
+        images[i] = new Image();
         images[i].src = preload.arguments[i];
     }
 }
@@ -56,4 +67,3 @@ preload(
     "assets/logo-purp.png"
 );
 
-//--><!]]>

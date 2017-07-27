@@ -11,12 +11,12 @@ $(document).ready(function() {
     console.log("Hi there.");
     $(window).scroll(function() {
         if ($(this).scrollTop() > 400) {
-            $('#exCollapsingNavbar2').css({
+            $('.navbar').css({
                 'display': 'none'
             });
         } else {
-            $('#exCollapsingNavbar2').css({
-                'display': 'block!important'
+            $('.navbar').css({
+                'display': 'block'
             });
         }
     });

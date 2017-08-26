@@ -8,16 +8,21 @@ $(function() {
 });
 
 $(document).ready(function() {
-    console.log("Hi there.");
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 400) {
-            $('.navbar').css({
-                'display': 'none'
-            });
-        } else {
-            $('.navbar').css({
-                'display': 'block'
-            });
+        var navbar = $('.navbar');
+        if($(this).scrollTop() > 400) {
+            if(navbar.css("display") === 'block') {
+              navbar.fadeOut(200, function() {
+                  navbar.css({ 'display':  'none' });
+              });
+            }
+        }
+        else {
+            if(navbar.css("display") === 'none') {
+              navbar.fadeIn(200, function() {
+                  navbar.css({ 'display':  'block' });
+              });
+            }
         }
     });
 });
@@ -66,4 +71,3 @@ preload(
     "assets/logo-red.png",
     "assets/logo-purp.png"
 );
-

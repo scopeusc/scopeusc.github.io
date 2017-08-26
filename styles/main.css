@@ -31,6 +31,28 @@ body {
     background-repeat: no-repeat;
 }
 
+.nav-link {
+    color: rgba(103,52,209,.8);
+    margin: 15px 10px;
+    padding: 7px 10px;
+    height: 40px;
+    width: 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(103,52,209,.6);
+    font-size: 15px;
+    background-color: rgba(255,255,255,.5);
+    font-weight: 300;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.nav-link:hover {
+    background-color: rgba(103,52,209,.6);
+    color: #fff;
+    font-weight: 300;
+}
+
 .stats {
     padding: 50px 0;
 }
@@ -44,11 +66,11 @@ body {
 }
 
 #divider-one {
-    background-image: url(assets/twitter.jpg);
+    background-image: url(../assets/twitter.jpg);
 }
 
 #divider-two {
-    background-image: url(assets/selfie.jpg);
+    background-image: url(../assets/selfie.jpg);
 }
 
 #intro {
@@ -58,7 +80,7 @@ body {
 #logo-image {
     height: 200px;
     width: 600px;
-    background-image: url(assets/logo-purp.png);
+    background-image: url(../assets/logo-purp.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,7 +88,7 @@ body {
 }
 
 #logo-image:hover {
-    background-image: url(assets/logo-red.png);
+    background-image: url(../assets/logo-red.png);
 }
 
 @media screen and (max-width: 550px)
@@ -90,33 +112,11 @@ body {
 }
 
 nav {
+    display: block;
     text-align: center;
     height: 100px;
-    background-color: rgba(0,0,0,0);
     font-weight: 100;
-}
-
-.navbar a {
-    color: rgb(103,52,209);
-    margin: 15px 10px;
-    padding: 7px 10px;
-    height: 40px;
-    width: 150px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(103,52,209,.6);
-    font-size: 15px;
-    background-color: rgba(255,255,255,.5);
-    font-weight: 100;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-
-
-.navbar a:hover {
-    background-color: rgba(103,52,209,.6);
-    color: #fff;
-    font-weight: 300;
+    background-color: white;
 }
 
 .overlay {
@@ -133,7 +133,13 @@ nav {
 
 .section-header h1 {
     color: rgb(103,52,209);
-    font-size: 10em;
+    font-size: 7em;
+    font-weight: 300;
+}
+
+.section-header h2 {
+    color: rgb(103,52,209);
+    font-size: 3em;
     font-weight: 300;
 }
 
@@ -223,24 +229,7 @@ nav {
 }
 
 .page-apply a {
-    color: rgb(103,52,209);
-    margin: 15px auto;
-    padding: 7px 10px;
-    height: 40px;
     width: 170px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(103,52,209,.6);
-    font-size: 15px;
-    background-color: rgba(255,255,255,.5);
-    font-weight: 100;
-    transition: all 0.3s ease;
-}
-
-.page-apply a:hover {
-    background-color: rgba(103,52,209, .4);
-    border-color: rgba(103,52,209, .4);
-    color: #fff;
 }
 
 #apply-button:hover {
@@ -274,25 +263,7 @@ nav {
 }
 
 .learn-more a {
-    color: rgb(103,52,209);
-    margin: 15px 10px;
-    padding: 7px 10px;
-    height: 40px;
     width: 170px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(103,52,209, .6);
-    font-size: 15px;
-    font-weight: 300;
-    background-color: rgba(255,255,255, .6);
-    transition: all 0.3s ease;
-    text-align: center;
-}
-
-.learn-more a:hover {
-    background-color: rgba(103,52,209, .4);
-    border-color: rgba(103,52,209, .4);
-    color: #fff;
 }
 
 @media (max-width: 34em) {
@@ -338,11 +309,11 @@ h2 {
 }
 
 .topic {
-    background-image: url(assets/bovard.jpg);
+    background-image: url(../assets/bovard.jpg);
 }
 
 .topic .overlay {
-    padding: 100px;
+    padding: 150px 100px;
 }
 
 .code {
@@ -357,7 +328,7 @@ h2 {
     display: inline-block;
     background-position: center;
     background-size: cover;
-    background-image: url("assets/logo-square.png");
+    background-image: url("../assets/logo-square.png");
 }
 
 .person .job {
@@ -396,14 +367,16 @@ h2 {
     }
 }
 
-
-
 .people {
     text-align: center;
     margin-top: 20px;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+
+.friendship {
+    margin: 100px;
 }
 
 #sponsor-button {
@@ -463,31 +436,31 @@ h2 {
 */
 
 .eb-jonluca {
-    background-image: url('assets/eboard/jonluca.jpg');
+    background-image: url('../assets/eboard/jonluca.jpg');
 }
 
 .eb-willie {
-    background-image: url('assets/eboard/willie.jpg');
+    background-image: url('../assets/eboard/willie.jpg');
 }
 
 .eb-sam {
-    background-image: url('assets/eboard/sam.jpg');
+    background-image: url('../assets/eboard/sam.jpg');
 }
 
 .eb-anisha {
-    background-image: url('assets/eboard/anisha.jpg');
+    background-image: url('../assets/eboard/anisha.jpg');
 }
 
 .eb-aliya {
-    background-image: url('assets/eboard/aliya.jpg');
+    background-image: url('../assets/eboard/aliya.jpg');
 }
 
 .eb-alexl {
-    background-image: url('assets/eboard/alexl.png');
+    background-image: url('../assets/eboard/alexl.png');
 }
 
 .eb-jerry {
-    background-image: url('assets/eboard/jerry.jpg');
+    background-image: url('../assets/eboard/jerry.jpg');
 }
 
 #eboard-title {
@@ -696,14 +669,14 @@ div .logo-pic {
 }
 
 .sponsorship #motto {
-    padding-top: 75px;
     text-align: center;
     font-weight: 300;
 }
 
 .sponsorship #motto p {
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
+    color: #90949c;
 }
 
 .sponsorship .silver-tier {
@@ -712,7 +685,7 @@ div .logo-pic {
 .facebook {
     width: 350px;
     height: 150px;
-    background-image: url("assets/facebook.png");
+    background-image: url("../assets/facebook.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -723,7 +696,7 @@ div .logo-pic {
 .codepath {
     width: 350px;
     height: 150px;
-    background-image: url("assets/codepath.png");
+    background-image: url("../assets/codepath.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -738,7 +711,7 @@ div .logo-pic {
     width: 350px;
     height: 150px;
     padding: 10px;
-    background-image: url("assets/qualcomm.png");
+    background-image: url("../assets/qualcomm.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -939,167 +912,166 @@ div .logo-pic {
 
 /* people for members page */
 .adam {
-    background-image: url("assets/members/adam.jpg");
+    background-image: url("../assets/members/adam.jpg");
 }
 .adam:hover {
-    background-image: url("assets/members/adam-hat.jpg");
+    background-image: url("../assets/members/adam-hat.jpg");
 }
 
 .alex {
-    background-image: url("assets/members/alex.jpg");
+    background-image: url("../assets/members/alex.jpg");
 }
 .alex:hover {
-    background-image: url("assets/members/alex-hat.jpg");
+    background-image: url("../assets/members/alex-hat.jpg");
 }
 
 .andrew {
-    background-image: url("assets/members/andrew.jpg");
+    background-image: url("../assets/members/andrew.jpg");
 }
 .andrew:hover {
-    background-image: url("assets/members/andrew-hat.jpg");
+    background-image: url("../assets/members/andrew-hat.jpg");
 }
 
 .aneel {
-    background-image: url("assets/members/aneel.jpg");
+    background-image: url("../assets/members/aneel.jpg");
 }
 .aneel:hover {
-    background-image: url("assets/members/aneel-hat.jpg");
+    background-image: url("../assets/members/aneel-hat.jpg");
 }
 
 .anisha {
-    background-image: url("assets/members/anisha.jpg");
+    background-image: url("../assets/members/anisha.jpg");
 }
 .anisha:hover {
-    background-image: url("assets/members/anisha-hat.jpg");
+    background-image: url("../assets/members/anisha-hat.jpg");
 }
 
 .ashish {
-    background-image: url("assets/members/ashish.jpg");
+    background-image: url("../assets/members/ashish.jpg");
 }
 .ashish:hover {
-    background-image: url("assets/members/ashish-hat.jpg");
+    background-image: url("../assets/members/ashish-hat.jpg");
 }
 
 .avery {
-    background-image: url("assets/members/avery.jpg");
+    background-image: url("../assets/members/avery.jpg");
 }
 .avery:hover {
-    background-image: url("assets/members/avery-hat.jpg");
+    background-image: url("../assets/members/avery-hat.jpg");
 }
 
 .cameron {
-    background-image: url("assets/members/cameron.jpg");
+    background-image: url("../assets/members/cameron.jpg");
 }
 .cameron:hover {
-    background-image: url("assets/members/cameron-hat.jpg");
+    background-image: url("../assets/members/cameron-hat.jpg");
 }
 
 .darwin {
-    background-image: url("assets/members/darwin.jpg");
+    background-image: url("../assets/members/darwin.jpg");
 }
 .darwin:hover {
-    background-image: url("assets/members/darwin-hat.jpg");
+    background-image: url("../assets/members/darwin-hat.jpg");
 }
 
 .eli {
-    background-image: url("assets/members/eli.jpg");
+    background-image: url("../assets/members/eli.jpg");
 }
 .eli:hover {
-    background-image: url("assets/members/eli-hat.jpg");
+    background-image: url("../assets/members/eli-hat.jpg");
 }
 
 .janson {
-    background-image: url("assets/members/janson.jpg");
+    background-image: url("../assets/members/janson.jpg");
 }
 .janson:hover {
-    background-image: url("assets/members/janson-hat.jpg");
+    background-image: url("../assets/members/janson-hat.jpg");
 }
 .jon {
-    background-image: url("assets/members/jon.jpg");
+    background-image: url("../assets/members/jon.jpg");
 }
 .jon:hover {
-    background-image: url("assets/members/jon-hat.jpg");
+    background-image: url("../assets/members/jon-hat.jpg");
 }
 .jonluca {
-    background-image: url("assets/members/jonluca.jpg");
+    background-image: url("../assets/members/jonluca.jpg");
 }
 .jonluca:hover {
-    background-image: url("assets/members/jonluca-hat.jpg");
+    background-image: url("../assets/members/jonluca-hat.jpg");
 }
 .myrl {
-    background-image: url("assets/members/myrl.jpg");
+    background-image: url("../assets/members/myrl.jpg");
 }
 .myrl:hover {
-    background-image: url("assets/members/myrl-hat.jpg");
+    background-image: url("../assets/members/myrl-hat.jpg");
 }
 
 .nikki {
-    background-image: url("assets/members/nikki.jpg");
+    background-image: url("../assets/members/nikki.jpg");
 }
 .nikki:hover {
-    background-image: url("assets/members/nikki-hat.jpg");
+    background-image: url("../assets/members/nikki-hat.jpg");
 }
 
 .sai {
-    background-image: url("assets/members/sai.jpg");
+    background-image: url("../assets/members/sai.jpg");
 }
 .sai:hover {
-    background-image: url("assets/members/sai-hat.jpg");
+    background-image: url("../assets/members/sai-hat.jpg");
 }
 
 .stacey {
-    background-image: url("assets/members/stacey.jpg");
+    background-image: url("../assets/members/stacey.jpg");
 }
 .stacey:hover {
-    background-image: url("assets/members/stacey-hat.jpg");
+    background-image: url("../assets/members/stacey-hat.jpg");
 }
 
 .szot {
- background-image: url("assets/members/szot.jpg");
+ background-image: url("../assets/members/szot.jpg");
 }
 .szot:hover {
-    background-image: url("assets/members/szot-hat.jpg");
+    background-image: url("../assets/members/szot-hat.jpg");
 }
 
 .terrence {
-    background-image: url("assets/members/terrence.jpg");
+    background-image: url("../assets/members/terrence.jpg");
 }
 .terrence:hover {
-    background-image: url("assets/members/terrence-hat.jpg");
+    background-image: url("../assets/members/terrence-hat.jpg");
 }
 
 .tim {
-    background-image: url("assets/members/tim.jpg");
+    background-image: url("../assets/members/tim.jpg");
 }
 .tim:hover {
-    background-image: url("assets/members/tim-hat.jpg");
+    background-image: url("../assets/members/tim-hat.jpg");
 }
 
 .zech {
-    background-image: url("assets/members/zech.jpg");
+    background-image: url("../assets/members/zech.jpg");
 }
 .zech:hover {
-    background-image: url("assets/members/zech-hat.jpg");
+    background-image: url("../assets/members/zech-hat.jpg");
 }
 
 .jerry {
-    background-image: url("assets/members/jerry.jpg");
+    background-image: url("../assets/members/jerry.jpg");
 }
 .jerry:hover {
-    background-image: url("assets/members/jerry.jpg");
+    background-image: url("../assets/members/jerry.jpg");
 }
 
 .avery {
-    background-image: url("assets/members/avery.jpg");
+    background-image: url("../assets/members/avery.jpg");
 }
 .avery:hover {
-    background-image: url("assets/members/avery-hat.jpg");
+    background-image: url("../assets/members/avery-hat.jpg");
 }
 
 .cameron {
-    background-image: url("assets/members/cameron.jpg");
+    background-image: url("../assets/members/cameron.jpg");
 }
 .cameron:hover {
-    background-image: url("assets/members/cameron-hat.jpg");
+    background-image: url("../../assets/members/cameron-hat.jpg");
 }
-

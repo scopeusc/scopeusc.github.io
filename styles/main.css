@@ -48,7 +48,7 @@ body {
     text-align: center;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:active, .nav-link:focus {
     background-color: rgba(103,52,209,.6);
     color: #fff;
     font-weight: 300;
@@ -380,11 +380,6 @@ h2 {
     margin: 100px;
 }
 
-#sponsor-button {
-    height: 40px;
-    width: 170px;
-}
-
 .person .overlay {
     opacity: 0;
     transition: all 0.3s ease;
@@ -544,7 +539,7 @@ h2 {
     color: white;
 }
 
-#purple {
+.purple {
     background-color: rgb(103,52,209);
     border: 10px rgb(103,52,209) solid;
 }
@@ -598,17 +593,17 @@ h2 {
     color: rgb(103,52,209);
 }
 
-#gold {
+.gold {
     background-color: #D4B483;
     border: 10px #D4B483 solid;
 }
 
-#silver {
+.silver {
     background-color: #E4DFDA;
     border: 10px #E4DFDA solid;
 }
 
-#bronze {
+.bronze {
     background-color: #F4B393;
     border: 10px #F4B393 solid;
 }

@@ -263,9 +263,22 @@ nav {
     text-align: center;
 }
 
+.learn-more {
+    color: rgb(103,52,209);
+}
+
+.learn-more h2 {
+    margin:  10px 0;
+}
+
 .learn-more a {
     width: 170px;
 }
+
+.learn-more span {
+    font-weight: 300;
+}
+
 
 @media (max-width: 34em) {
     .logo h1 {

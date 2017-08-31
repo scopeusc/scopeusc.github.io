@@ -9,10 +9,6 @@ function submit() {
   var contactMessage = document.getElementById('contactMessage').value;
   var date = new Date();
 
-  console.log(lastName);
-  console.log(firstName);
-  console.log(email);
-
   if (firstName === ''){
     document.getElementById('firstName').value = '';
     document.getElementById('firstName').placeholder = 'Please enter a first name';
@@ -27,6 +23,13 @@ function submit() {
   } else {
       document.getElementById('modal-trigger').click();
       contactRef.push({
+        firstName: firstName,
+        lastName: lastName,
+        email: email,
+        contactMessage: contactMessage,
+        date: date,
+      });
+      emailjs.send('gmail', 'template_1V8sP0AJ', {
         firstName: firstName,
         lastName: lastName,
         email: email,

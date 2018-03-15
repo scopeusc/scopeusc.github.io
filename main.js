@@ -10,18 +10,21 @@ $(function() {
 $(document).ready(function() {
     $(window).scroll(function() {
         var navbar = $('.navbar');
-        if($(this).scrollTop() > 400) {
-            if(navbar.css("display") === 'block') {
-              navbar.fadeOut(200, function() {
-                  navbar.css({ 'display':  'none' });
-              });
+        if ($(this).scrollTop() > 400) {
+            if (navbar.css("display") === 'block') {
+                navbar.fadeOut(200, function() {
+                    navbar.css({
+                        'display': 'none'
+                    });
+                });
             }
-        }
-        else {
-            if(navbar.css("display") === 'none') {
-              navbar.fadeIn(200, function() {
-                  navbar.css({ 'display':  'block' });
-              });
+        } else {
+            if (navbar.css("display") === 'none') {
+                navbar.fadeIn(200, function() {
+                    navbar.css({
+                        'display': 'block'
+                    });
+                });
             }
         }
     });
@@ -39,25 +42,6 @@ $('#sponsor-button').click(function() {
         scrollTop: $("#purple").offset().top
     }, 1000);
 });
-
-/*
-$('.page-apply').click(function() {
-    $('html, body').animate({scrollTop: $(".typeform-widget").offset().top}, 1000);
-})
-
-$('#apply-button').click(function() {
-    $('html, body').animate({scrollTop: $(".typeform-widget").offset().top}, 1000);
-})
-*/
-
-/* @deprecated for now
-function hover(element) {
-    element.setAttribute('src', 'assets/logo-red.png');
-}
-function unhover(element) {
-    element.setAttribute('src', 'assets/logo-purp.png');
-}
-*/
 
 var images = [];
 

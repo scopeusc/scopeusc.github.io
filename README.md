@@ -5,7 +5,7 @@
 
 ## About the Repo
 This is the github repository for Scope USC's website. Which can be found [here](http://scopeusc.com).
-The website uses [paper-kit-2](https://demos.creative-tim.com/paper-kit-2-pro/index.html) Grab components from there to adhere to the general style.
+The website uses [paper-kit-2](https://demos.creative-tim.com/paper-kit-2-pro/index.html). Grab components from there to adhere to the general style.
 The old website (before June 6th, 2018) is located [here](http://scopeusc.com/legacy)
 
 ## About Scope

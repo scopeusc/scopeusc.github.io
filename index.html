@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-  <!--
+ <!--
   ________________________________________________
   /                                                \
   |    _________________________________________     |
@@ -31,8 +30,9 @@
   `---._.-------------------------------------------------------------._.---'
   If you're reading this, you should apply.
   -->
-  <head>
-    <title>Scope USC</title>
+<html lang="en">
+<head>
+	<title>Scope USC</title>
     <meta charset="utf-8">
     <meta name="description" content="Scope is USC's computer science club where the top students come together to build, create, and learn.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -44,343 +44,482 @@
     <meta property="og:site_name" content="Scope">
     <meta property="og:locale" content="en_US">
     <meta property="og:url" content="http://uscscope.com">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/main.css">
-    <script src="https://use.fontawesome.com/9f7b7f8456.js"></script>
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/manifest.json">
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+	<!--	Stylesheets		-->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/paper-kit.css?v=2.1.0" rel="stylesheet"/>
+	<link href="./assets/css/demo.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="./custom_assets/css/style.css" rel="stylesheet" />
+
+    <!--     Fonts and icons     -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+	<link href="./assets/css/nucleo-icons.css" rel="stylesheet">
+	
+	<!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./custom_assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./custom_assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./custom_assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./custom_assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./custom_assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./custom_assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./custom_assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./custom_assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./custom_assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./custom_assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./custom_assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./custom_assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./custom_assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./custom_assets/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-fixed-top navbar-light">
-        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-        &#9776;
-        </button>
-        <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-          <a class="nav-link" href="members">MEMBERS</a>
-          <a class="nav-link" href="contact">CONTACT US</a>
-          <!-- <a class="nav-link" href="apply">APPLY</a> -->
-          <a class="nav-link" href="#sponsorship">SPONSOR TIERS</a>
-        </div>
-      </nav>
-    </header>
-    <div class="jumbotron" id="intro">
-      <div class="overlay">
-        <div class="logo vert-horiz-center">
-          <div id="logo-image"></div>
-          <!--<img class="logo-pic" src="assets/logo-purp.png" onmouseover="hover(this);" onmouseout="unhover(this);" > </img>-->
-          <span id="animatetext"></span>
-        </div>
-        <div class="learn-more">
-          <a class="nav-link" id="learn-more-button" href="#">LEARN MORE</a>
-          <!-- <a class="nav-link" id="apply-button" href="apply">APPLY FOR SPRING</a> -->
-          <h2>Applications for Fall 2018 will open next semester!</h2>
-        </div>
-      </div>
+	<meta name="msapplication-TileImage" content="./custom_assets/favicon/ms-icon-144x144.png">
+	
+	<!--	Contact Form	-->
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script type="text/javascript">
+		(function(){
+			emailjs.init("user_6nASUONztcTXSO5TYrOdS");
+		})();
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-transparent nav-down" color-on-scroll="500">
+		<div class="container">
+			<div class="navbar-translate">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Scope USC</a>
+				</div>
+				<button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-bar"></span>
+					<span class="navbar-toggler-bar"></span>
+					<span class="navbar-toggler-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#section-about" data-scroll="true" href="javascript:void(0)">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section-team" data-scroll="true" href="javascript:void(0)">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section-contact" data-scroll="true" href="javascript:void(0)">Contact</a>
+					</li>
+					<li class="nav-item">
+						<button class="btn btn-round btn-danger" data-toggle="modal" data-target="#applyModal">
+							<i class="nc-icon nc-badge"></i> Apply
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="page-header" data-parallax="true" style="background-image: url('./custom_assets/img/1024px-doheny.jpg');">
+		<div class="filter"></div>
+		<div class="content-center">
+			<div class="container">
+	            <div class="motto">
+					<div class="img-logo-wrapper">
+						<img class="img-logo img-logo-purple" src="./custom_assets/img/logo-purp.png"/>
+						<img class="img-logo img-logo-red" src="./custom_assets/img/logo-red.png"/>
+					</div>
+	                <h3 class="description">2018 Fall Topic: Electron - Applications will open soon!</h3>
+	                <br />
+	                <a href="#section-about" class="btn btn-round btn-danger">Learn More</a>
+	            </div>
+	        </div>
+		</div>
+
     </div>
-    <div class="about" id="about">
-      <div class="container">
-        <div class="col-md-12" id="motto">
-          <h2>Build and learn cool things with great people.</h2>
-        </div>
-        <div class="col-md-6 col-md-offset-3">
-          <div class="description">
-            <p>That's the motto that Scope was founded and built on. As a member you will build projects as part of an exciting curriculum that hones and improves your coding skills. Best of all, members join the tight-knit Scope family and get to partake in awesome community events throughout the semester.</p>
-            <p>At Scope, we also host retreats, industry speakers, hackathons, and more to encourage an inclusive culture of creation, hacking, and fun at USC.</p>
-           <!-- 
-            <div class="page-apply">
-              <a class="nav-link" href="apply">APPLY FOR SPRING</a>
+
+    <div class="wrapper">
+        <div class="section text-center landing-section" id="section-about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="title">Build and learn cool things with great people.</h2>
+                        <h5>That's the motto that Scope was founded and built on. As a member you will build projects as part of an exciting curriculum that hones and improves your coding skills. Best of all, members join the tight-knit Scope family and get to partake in awesome community events throughout the semester.</h5>
+						<br>
+						<h5>At Scope, we also host retreats, industry speakers, hackathons, and more to encourage an inclusive culture of creation, hacking, and fun at USC.</h5>
+                    </div>
+                </div>
+				<br /><br />
+				<div class="row">
+					<div class="col-md-3">
+						<div class="info">
+							<div class="icon icon-danger">
+								<i class="far fa-edit"></i>
+							</div>
+							<div class="description">
+								<h4 class="info-title">Train</h4>
+								<p class="description">Members spend the first half of the semester following the same onboarding process that Facebook and Airbnb use to train their interns. You'll be learning a new topic by building a new mini-project every week.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="info">
+							<div class="icon icon-danger">
+								<i class="far fa-keyboard"></i>
+							</div>
+							<div class="description">
+								<h4 class="info-title">Hack</h4>
+								<p>After the course, we host our annual internal hackathon. Consisting of ideation, coding, and lots of whiteboards, by the end of the night you'll be itching to get started building your ideas.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="info">
+							<div class="icon icon-danger">
+								<i class="fas fa-cogs"></i>
+							</div>
+							<div class="description">
+								<h4 class="info-title">Create</h4>
+								<p>The second half of the semester will be spent working on a product on an idea from the hackathon. By the end of the semester you'll have an awesome project, great friends, and tons of experience working in a development team.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="info">
+							<div class="icon icon-danger">
+								<i class="far fa-hand-peace"></i>
+							</div>
+							<div class="description">
+								<h4 class="info-title">Belong</h4>
+								<p>One of the biggest aims of Scope is to create a community of developers who love to build. Throughout the semester we have retreats, dinners, and other events to build this community. You will want to go to Scope meetings as much for the people and the energy as for the learning.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
             </div>
-          -->
-          </div>
+		</div>
+		
+		<div class="section section-image text-center landing-section" style="background-image: url('custom_assets/img/selfie.jpg')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+						<h2 class="title">By the Numbers</h2>
+					</div>
+                </div>
+				<br /><br />
+				<div class="row">
+					<div class="col-md-4">
+						<div class="info">
+							<div class="icon icon-info">
+								<i class="far fa-edit"></i>
+							</div>
+							<div class="description">
+								<h4 class="info-title">80+</h4>
+								<p class="description">Active alumni and members</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="info">
+							<div class="icon icon-info">
+								<i class="far fa-keyboard"></i>
+							</div>
+							<div class="description">
+								<h4 class="info-title">50%</h4>
+								<p>Gender representation</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="info">
+							<div class="icon icon-info">
+								<i class="fas fa-cogs"></i>
+							</div>
+							<div class="description">
+								<h4 class="info-title">150,000+</h4>
+								<p>Lines of code written.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+		
+		<div class="section text-center landing-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+						<h2 class="title">The next generation of innovators and leaders</h2>
+						<h5>Scope alumni in industry</h5>
+					</div>
+                </div>
+				<br /><br />
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-company" src="./custom_assets/img/microsoft.svg"/>
+					</div>
+					<div class="col-md-6">
+						<img class="img-company" src="./custom_assets/img/google.svg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-company" src="./custom_assets/img/amazon.svg"/>
+					</div>
+					<div class="col-md-6">
+						<img class="img-company" src="./custom_assets/img/Facebook.svg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-company" src="./custom_assets/img/intel.svg"/>
+					</div>
+					<div class="col-md-6">
+						<img class="img-company" src="./custom_assets/img/bloomberg.svg"/>
+					</div>
+				</div>
+            </div>
         </div>
-      </div>
+
+        <div class="section section-dark text-center landing-section" id="section-team">
+            <div class="container">
+                <h2 class="title">Meet the Team</h2>
+				<div class="row">
+    				<div class="col-md-3">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="./custom_assets/img/eboard/jonluca.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">JonLuca</h4>
+                                        <h6 class="card-category text-muted">Director</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+    				</div>
+
+    				<div class="col-md-3">
+						<div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="./custom_assets/img/eboard/willie.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Willie</h4>
+                                        <h6 class="card-category text-muted">Projects</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+    				</div>
+
+    				<div class="col-md-3">
+						<div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="./custom_assets/img/eboard/sam.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Sam</h4>
+                                        <h6 class="card-category text-muted">Outreach</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+					</div>
+					
+					<div class="col-md-3">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="./custom_assets/img/eboard/anisha.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Anisha</h4>
+                                        <h6 class="card-category text-muted">Culture</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+    				</div>
+				</div>
+				<div class="row">
+    				<div class="col-md-4">
+						<div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="./custom_assets/img/eboard/aliya.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Aliya</h4>
+                                        <h6 class="card-category text-muted">Events</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+    				</div>
+
+    				<div class="col-md-4">
+						<div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="./custom_assets/img/eboard/alexl.png" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Alex</h4>
+                                        <h6 class="card-category text-muted">Alumni</h6>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+					</div>
+					
+					<div class="col-md-4">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#avatar"><img src="./custom_assets/img/eboard/jerry.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <a href="#paper-kit">
+                                    <div class="author">
+                                        <h4 class="card-title">Jerry</h4>
+                                        <h6 class="card-category text-muted">Alumni</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+    				</div>
+    			</div>
+        	</div>
+		</div>
+		
+		<div class="section landing-section" id="section-contact">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-8 ml-auto mr-auto">
+						<h2 class="text-center title">Contact Us</h2>
+						<h5 class="text-center">Have a question? Don't hesitate to send us an email at <a href="mailto:sponsors@scopeusc.com">sponsors@scopeusc.com</a></h5>
+						<!--
+							<div class="contact-form">
+								<div class="row">
+									<div class="col-md-6">
+										<label>First Name</label>
+										<input id="firstName" class="form-control" placeholder="First Name">
+									</div>
+									<div class="col-md-6">
+										<label>Last Name</label>
+										<input id="lastName" class="form-control" placeholder="Last Name">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<label>Email</label>
+										<input id="email" class="form-control" placeholder="Email">
+									</div>
+								</div>
+								<label>Message</label>
+								<textarea id="contactMessage" class="form-control" rows="4" placeholder="Message"></textarea>
+								<div class="row">
+									<div class="col-md-4 offset-md-4">
+										<button onclick="submit()" class="btn btn-danger btn-lg btn-fill">Send Message</button>
+									</div>
+								</div>
+							</div>
+						-->
+	                </div>
+	            </div>
+	        </div>
+	    </div>
     </div>
-  </div>
-  <div class="topic">
-    <div class="overlay">
-      <div class="container section-header">
-        <h2>Spring 2018 Topic:</h2>
-        <h1>Node, Back-End, and DevOps</h1>
-      </div>
-    </div>
-  </div>
-  <div class="curriculum">
-    <div class="container">
-      <div class="col-md-12" id="motto">
-        <h2>What will you do?</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6 curr-header">
-          <div class="icon">
-            <i class="fa fa-pencil-square-o fa-3x" aria-hidden="true"></i>
-          </div>
-          <h2>Train</h2>
-          <p>Members spend the first half of the semester following the same onboarding process that Facebook and Airbnb use to train their interns. You'll be learning a new topic by building a new mini-project every week.</p>
-        </div>
-        <div class="col-md-6 curr-header">
-          <div class="icon">
-            <i class="fa fa-keyboard-o fa-3x" aria-hidden="true"></i>
-          </div>
-          <h2>Hack</h2>
-          <p>After the course, we host our annual internal hackathon. Consisting of ideation, coding, and lots of whiteboards, by the end of the night you'll be itching to get started building your ideas.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 curr-header">
-          <div class="icon">
-            <i class="fa fa-gear fa-3x" aria-hidden="true"></i>
-          </div>
-          <h2>Create</h2>
-          <p>The second half of the semester will be spent working on a product on an idea from the hackathon. By the end of the semester you'll have an awesome project, great friends, and tons of experience working in a development team.</p>
-        </div>
-        <div class="col-md-6 curr-header">
-          <div class="icon">
-            <i class="fa fa-hand-peace-o fa-3x" aria-hidden="true"></i>
-          </div>
-          <h2>Belong</h2>
-          <p>One of the biggest aims of Scope is to create a community of developers who love to build. Throughout the semester we have retreats, dinners, and other events to build this community. You will want to go to Scope meetings as much for the people and the energy as for the learning.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="divider" id="divider-one">
-  </div>
-  <div class="stats">
-    <div class="container">
-      <div class="col-md-12" id="motto">
-        <h2>By the Numbers</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-4 curr-header">
-          <div class="icon">
-            <i class="fa fa-users fa-3x" aria-hidden="true"></i>
-          </div>
-          <h2>80+</h2>
-          <p>active alumni and members</p>
-        </div>
-        <div class="col-md-4 curr-header">
-          <div class="icon">
-            <i class="fa fa-venus-mars fa-3x" aria-hidden="true"></i>
-          </div>
-          <h2>50%</h2>
-          <p>gender representation</p>
-        </div>
-        <div class="col-md-4 curr-header">
-          <div class="icon">
-            <i class="fa fa-code fa-3x" aria-hidden="true"></i>
-          </div>
-          <h2>150,000+</h2>
-          <p>lines of code written</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="divider" id="divider-two"></div>
-  <div class="internship">
-    <div class="container">
-      <div class="internship-header">
-        <h2>The next generation of innovators and leaders</h2>
-        <p>Scope alumni in industry</p>
-      </div>
-      <div class="internship-body">
-        <div>
-          <div class="companies">
-            <img src="assets/microsoft.svg">
-          </div>
-          <div class="companies">
-            <img src="assets/amazon.svg">
-          </div>
-          <div class="companies">
-            <img src="assets/intel.svg">
-          </div>
-        </div>
-        <div>
-          <div class="companies">
-            <img src="assets/google.svg">
-          </div>
-          <div class="companies">
-            <img src="assets/Facebook.svg">
-          </div>
-          <div class="companies">
-            <img src="assets/bloomberg.svg">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="team">
-    <div class="container section-header">
-      <div class="col-md-12" id="motto">
-        <h2>Meet the Team</h2>
-      </div>
-      <div class="col-md-12 people row">
-        <div class="person">
-          <div class="person-image eb-jonluca"></div>
-          <h1>JonLuca</h1>
-          <p class="job">Director</p>
-        </div>
-        <div class="person">
-          <div class="person-image eb-willie"></div>
-          <h1>Willie</h1>
-          <p class="job">Projects</p>
-        </div>
-        <div class="person">
-          <div class="person-image eb-sam"></div>
-          <h1>Sam</h1>
-          <p class="job">Outreach</p>
-        </div>
-        <div class="person">
-          <div class="person-image eb-anisha"></div>
-          <h1>Anisha</h1>
-          <p class="job">Culture</p>
-        </div>
-        <div class="person">
-          <div class="person-image eb-aliya"></div>
-          <h1>Aliya</h1>
-          <p class="job">Events</p>
-        </div>
-        <div class="person">
-          <div class="person-image eb-alexl"></div>
-          <h1>Alex</h1>
-          <p class="job">Alumni</p>
-        </div>
-        <div class="person">
-          <div class="person-image eb-jerry"></div>
-          <h1>Jerry</h1>
-          <p class="job">Alumni</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-  <!--
-<div class="friendship">
-<div class="section-header">
-  <h1>Apply for Spring!</h1>
-  <p>It's a quick and easy application. Applications close January 19th at Midnight!</p>
-  <div class="page-apply">
-    <a class="nav-link" href="apply">APPLY FOR SPRING</a>
-  </div>
-</div>
-</div>
--->
-<div class="sponsorship">
-<div class="container">
-  <div id="motto">
-    <h2>Sponsors</h2>
-    <p>Reach some of the best computer science students in the country through USC Scope's Sponsorship opportunities.</p>
-    <p>Interested in sponsoring Scope? Contact <a href="mailto:sponsors@scopeusc.com">sponsors@scopeusc.com</a></p>
-  </div>
-  <!-- <div class="sponsor-logos">
-    <div class="silver-tier">
-      <h3>Gold</h3>
-      <div class="facebook"></div>
-      <h3>Bronze</h3>
-      <div class="codepath"></div>
-      <div class="qualcomm"></div>
-    </div>
-  </div> -->
-</div>
-<div class="plan col-md-12 purple" id="sponsorship">
-  <div class="col-md-4 price">
-    <h1>$8,000+</h1>
-  </div>
-  <div class="col-md-8 tier-description">
-    <h1>Purple Tier</h1>
-    <p>The absolute best way to get involved with computer science at USC.
-      <div>All features of Gold plus:</div>
-      <ul>
-        <li>We will host an exclusive hackathon at USC using your products/API</li>
-        <li>We will host a recruiting event in your name with your ambassadors</li>
-        <li>Your name will appear as a <strong>Purple Sponsor</strong> on our website and other marketing materials</li>
-        <li>Invites to our industry nights</li>
-        <li>Connections and access to computer science and engineering talent at USC</li>
-        <li>Resume drop, receive a resume from all members of the club who have opted in (engineers and other computer science students)</li>
-      </ul>
-    </p>
-  </div>
-</div>
-<div class="plan col-md-12 gold">
-  <div class="col-md-4 price">
-    <h1>$4,000+</h1>
-  </div>
-  <div class="col-md-8 tier-description">
-    <h1>Gold Tier</h1>
-    <p>Grow your brand recognition on campus with your own hackathon.
-      <div>All features of Silver plus:</div>
-      <ul>
-        <li>Full access to our member resume booklet</li>
-        <li>Your name will appear as a <strong>Gold Sponsor</strong> on our website and other marketing materials.</li>
-        <li>Invites to our industry nights</li>
-        <li>Connections and access to computer science and engineering talent at USC</li>
-        <li>Resume drop, receive a resume from all members of the club who have opted in (engineers and other computer science students)</li>
-      </ul>
-    </p>
-  </div>
-</div>
-<div class="plan col-md-12 silver">
-  <div class="col-md-4 price">
-    <h1>$2,000+</h1>
-  </div>
-  <div class="col-md-8 tier-description">
-    <h1>Silver Tier</h1>
-    <p>Our most popular tier.
-      <div>All features of Bronze plus:</div>
-      <ul>
-        <li>Your name will appear as a <strong>Silver Sponsor</strong> on our website and other marketing materials</li>
-        <li>Use of your tools/products/apis as sponsored items within one of our hackathons.</li>
-        <li>Invites to our industry nights</li>
-        <li>Connections and access to computer science and engineering talent at USC</li>
-        <li>Resume drop, receive a resume from all members of the club who have opted in (engineers and other computer science students)</li>
-      </ul>
-    </p>
-  </div>
-</div>
-<div class="plan col-md-12 bronze">
-  <div class="col-md-4 price">
-    <h1>$100+ or Access To Services/Products</h1>
-  </div>
-  <div class="col-md-8 tier-description">
-    <h1>Bronze Tier</h1>
-    <p>An awesome way to support computer science at USC.
-      <ul>
-        <li>Your name will appear as a <strong>Bronze Sponsor</strong> on our website and other marketing materials</li>
-        <li>Connections and access to computer science and engineering talent at USC</li>
-        <li>Get your product in front of students who have a potential to become lifelong users</li>
-        <li>Start to build a presence among college students of your product</li>
-      </ul>
-    </p>
-  </div>
-</div>
-</div>
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-82550600-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="js/typed.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-<script src="main.js"></script>
+	<footer class="footer section-dark">
+		<div class="container">
+			<div class="row">
+				<div class="credits ml-auto">
+					<span class="copyright">
+						© <script>document.write(new Date().getFullYear())</script> Scope USC
+					</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
+		<div class="modal-dialog modal-notice">
+			<div class="modal-content">
+				<div class="modal-header no-border-header">
+					<h5 class="modal-title" id="myModalLabel">Thanks for your response!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				</div>
+				<div class="modal-body">
+					<div class="instruction">
+						<p>We'll be in contact soon.</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary btn-link" data-dismiss="modal">Okay</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="applyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
+		<div class="modal-dialog modal-notice">
+			<div class="modal-content">
+				<div class="modal-header no-border-header">
+					<h5 class="modal-title" id="myModalLabel">Come back later!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				</div>
+				<div class="modal-body">
+					<div class="instruction">
+						<p>Applications for Fall 2018 Will open next semester!</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary btn-link" data-dismiss="modal">Okay</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
+
+<!-- Core JS Files -->
+<script src="./assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="./assets/js/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
+<script src="./assets/js/popper.js" type="text/javascript"></script>
+<script src="./assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+<!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
+<script src="./assets/js/paper-kit.js?v=2.1.0"></script>
+
+<!--	GA		-->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-82550600-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<!-- 	Contact Form	-->
+<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+<script>
+  var config = {
+    apiKey: "AIzaSyD9Em1Cj3aMeFob_fgbKdzKm42WS7Q3T6c",
+    authDomain: "scope-website.firebaseapp.com",
+    databaseURL: "https://scope-website.firebaseio.com/",
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="./custom_assets/js/contact.js"></script>
 </html>

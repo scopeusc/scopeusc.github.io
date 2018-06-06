@@ -1,0 +1,33 @@
+.img-logo-wrapper {
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+
+img.img-logo {
+    width: 100%;
+}
+
+img.img-logo-red {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.img-logo-wrapper:hover img.img-logo-red {
+    visibility: visible;
+    opacity: 1;
+}
+
+img.img-company {
+    height: 100px;
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.contact-form label {
+    color: black;
+}

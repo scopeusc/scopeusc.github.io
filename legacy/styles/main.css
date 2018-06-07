@@ -71,7 +71,7 @@ body {
 }
 
 #divider-two {
-    background-image: url(../assets/retreat_s18.jpg);
+    background-image: url(../assets/selfie.jpg);
 }
 
 #intro {
@@ -568,7 +568,11 @@ h2 {
     text-align: center;
     padding: 10px;
 }
-
+#animatetext {
+    font-size: 2.5em;
+    color: rgb(103,52,209);
+    display: inline;
+}
 #apply-team {
     bottom: 20px;
 }

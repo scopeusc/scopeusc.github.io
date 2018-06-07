@@ -1,6 +1,6 @@
 # Scope
 
-![alt text](http://scopeusc.com/custom_assets/img/logo-purp.png "Scope Logo")
+![alt text](http://scopeusc.com/legacy/assets/logo-purp.png "Scope Logo")
 
 
 ## About the Repo

@@ -44,13 +44,14 @@ img.img-social {
 
 #animatetext {
     font-size: 2.5em;
-    color: rgb(103,52,209);
+
+    color: rgb(255,255,255);
     display: inline;
 }
 
 span.typed-cursor {
     font-size: 2.5em;
-    color: rgb(103,52,209);
+    color: rgb(255,255,255);
 }
 
 .page-header.page-header-white {

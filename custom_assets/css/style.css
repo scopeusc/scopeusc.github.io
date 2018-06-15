@@ -63,15 +63,15 @@ span.typed-cursor {
 }
 
 .navbar-scope.navbar-transparent .navbar-brand, [class*="bg"] .navbar-brand {
-    color: #66615B;
+    color: white;
 }
 
 .navbar-scope.navbar-transparent .navbar-nav .nav-item .nav-link:not(.btn), [class*="bg"] .navbar-nav .nav-item .nav-link:not(.btn) {
-    color: #66615B;
+    color: white;
 }
 
 .navbar-scope.navbar-transparent .navbar[class*="bg-"] .navbar-toggler .navbar-toggler-bar, .navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
-    background: #66615B;
+    color: white;
 }
 
 .btn.btn-scope {

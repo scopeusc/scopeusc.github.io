@@ -44,14 +44,13 @@ img.img-social {
 
 #animatetext {
     font-size: 2.5em;
-
-    color: rgb(255,255,255);
+    color: rgb(103,52,209);
     display: inline;
 }
 
 span.typed-cursor {
     font-size: 2.5em;
-    color: rgb(255,255,255);
+    color: rgb(103,52,209);
 }
 
 .page-header.page-header-white {
@@ -63,15 +62,15 @@ span.typed-cursor {
 }
 
 .navbar-scope.navbar-transparent .navbar-brand, [class*="bg"] .navbar-brand {
-    color: white;
+    color: #66615B;
 }
 
 .navbar-scope.navbar-transparent .navbar-nav .nav-item .nav-link:not(.btn), [class*="bg"] .navbar-nav .nav-item .nav-link:not(.btn) {
-    color: white;
+    color: #66615B;
 }
 
 .navbar-scope.navbar-transparent .navbar[class*="bg-"] .navbar-toggler .navbar-toggler-bar, .navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
-    color: white;
+    background-color: #66615B;
 }
 
 .btn.btn-scope {
@@ -86,4 +85,8 @@ span.typed-cursor {
 
 .icon-scope {
     color: rgb(103,52,209);
+}
+
+#particles-bg canvas {
+    position: absolute;
 }

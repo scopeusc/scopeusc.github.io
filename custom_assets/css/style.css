@@ -90,3 +90,36 @@ span.typed-cursor {
 #particles-bg canvas {
     position: absolute;
 }
+
+.sponsor-msg {
+    color: gray;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.form-control#sponsor-amount {
+    width: auto;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dollar-sign {
+    color: gray;
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#sponsor-alert {
+    color: gray;
+    font-size: 20px;
+}
+
+#sponsor-alert.red {
+    color: red;
+}
+
+#sponsor-alert.green {
+    color: #78d133;
+}

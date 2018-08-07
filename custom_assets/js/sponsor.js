@@ -34,15 +34,17 @@ $(document).ready(function () {
                 description: 'Sponsorship payment',
                 panelLabel: 'Pay',
                 token: function (res) {
-                    stripeToken = res.id;
+                    var stripeToken = res.id;
+                    var receiptEmail = res.email;
                     $.ajax({
                         method: 'POST',
-                        url: "https://84lm1eyc81.execute-api.us-west-1.amazonaws.com/dev/charge",
+                        url: "https://jo6g3zt2c3.execute-api.us-west-1.amazonaws.com/prod/charge",
                         type: 'json',
                         contentType: "application/json",
                         data: JSON.stringify({
                             token: stripeToken,
-                            amount: Math.round(amount)
+                            amount: Math.round(amount),
+                            email: receiptEmail
                         }),
                         success: function (data, textStatus, jqXHR) {
                             if (data.result === "success") {

@@ -28,7 +28,7 @@ $(document).ready(function () {
         } else {
             amount = amount * 100; // Needs to be an integer!
             StripeCheckout.open({
-                key: "pk_test_DxO0Suaj2VpGFFzH11wbT2cD",
+                key: "pk_live_PJ4YD5h7XC4JztK1jkCSjsYk",
                 amount: Math.round(amount),
                 name: 'Scope',
                 description: 'Sponsorship payment',

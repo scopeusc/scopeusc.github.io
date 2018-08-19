@@ -73,8 +73,8 @@ $(document).ready(function(){
         big_image = $('.page-header[data-parallax="true"]');
 
         if(big_image.length != 0){
-            pk.checkScrollForPresentationPage();
-            $(window).on('scroll', pk.checkScrollForPresentationPage);
+            //pk.checkScrollForPresentationPage();
+            //$(window).on('scroll', pk.checkScrollForPresentationPage);
         }
     }
 

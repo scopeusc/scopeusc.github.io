@@ -56,6 +56,9 @@ span.typed-cursor {
 
 .page-header.page-header-white {
     background-color: white;
+    height: 100vh;
+    min-height: 600px;
+    max-height: none;
 }
 
 .page-header.page-header-white .content-center .motto .description {
@@ -135,6 +138,4 @@ img.img-curriculum-lg {
     height: 50px;
     max-width: 100%;
     margin-top: 35px;
-
 }
-

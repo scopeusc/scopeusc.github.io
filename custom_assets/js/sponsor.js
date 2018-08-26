@@ -41,7 +41,9 @@ $(document).ready(function () {
         if(submitting) return;
         submitting = true;
         $("#sponsor-form-submit").attr("disabled", true);
-        stripe.createToken(cardNumber).then(function (result) {
+        stripe.createToken(cardNumber, {
+            name: $('#sponsor-company').val()
+        }).then(function (result) {
             if (result.error) {
                 // Inform the customer that there was an error.
                 var errorElement = document.getElementById('card-errors');

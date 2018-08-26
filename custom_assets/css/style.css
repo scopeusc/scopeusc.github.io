@@ -27,6 +27,7 @@ img.img-company {
     max-width: 100%;
     margin: 20px 0;
 }
+
 img.img-social {
     height: 20px;
     max-width: 100%;
@@ -34,24 +35,25 @@ img.img-social {
     margin-left: 20px;
     margin-bottom: 5px;
     margin-right: 20px;
-
 }
+
 #social_images {
     text-align: center;
 }
+
 .contact-form label {
     color: black;
 }
 
 #animatetext {
     font-size: 2.5em;
-    color: rgb(103,52,209);
+    color: rgb(103, 52, 209);
     display: inline;
 }
 
 span.typed-cursor {
     font-size: 2.5em;
-    color: rgb(103,52,209);
+    color: rgb(103, 52, 209);
 }
 
 .page-header.page-header-white {
@@ -62,33 +64,38 @@ span.typed-cursor {
 }
 
 .page-header.page-header-white .content-center .motto .description {
-    color: rgb(103,52,209);
+    color: rgb(103, 52, 209);
 }
 
-.navbar-scope.navbar-transparent .navbar-brand, [class*="bg"] .navbar-brand {
+.navbar-scope.navbar-transparent .navbar-brand,
+[class*="bg"] .navbar-brand {
     color: #66615B;
 }
 
-.navbar-scope.navbar-transparent .navbar-nav .nav-item .nav-link:not(.btn), [class*="bg"] .navbar-nav .nav-item .nav-link:not(.btn) {
+.navbar-scope.navbar-transparent .navbar-nav .nav-item .nav-link:not(.btn),
+[class*="bg"] .navbar-nav .nav-item .nav-link:not(.btn) {
     color: #66615B;
 }
 
-.navbar-scope.navbar-transparent .navbar[class*="bg-"] .navbar-toggler .navbar-toggler-bar, .navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
+.navbar-scope.navbar-transparent .navbar[class*="bg-"] .navbar-toggler .navbar-toggler-bar,
+.navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
     background-color: #66615B;
 }
 
 .btn.btn-scope {
-    border-color: rgb(103,52,209);
-    background-color: rgb(103,52,209);
+    border-color: rgb(103, 52, 209);
+    background-color: rgb(103, 52, 209);
 }
 
-.btn.btn-scope:hover, .btn.btn-scope:active, .btn.btn-scope:focus {
+.btn.btn-scope:hover,
+.btn.btn-scope:active,
+.btn.btn-scope:focus {
     border-color: rgb(75, 38, 151);
     background-color: rgb(75, 38, 151);
 }
 
 .icon-scope {
-    color: rgb(103,52,209);
+    color: rgb(103, 52, 209);
 }
 
 #particles-bg canvas {
@@ -104,8 +111,6 @@ span.typed-cursor {
 .form-control#sponsor-amount {
     width: auto;
     display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .dollar-sign {
@@ -132,10 +137,65 @@ img.img-curriculum {
     height: 40px;
     max-width: 100%;
     margin-top: 35px;
-
 }
+
 img.img-curriculum-lg {
     height: 50px;
     max-width: 100%;
     margin-top: 35px;
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+
+.StripeElement,
+#payment-form input {
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #e6ebf1;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.StripeElement--focus,
+#payment-form input:focus {
+    border-color: #cfd7df;
+    outline: none;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+#card-errors {
+    color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+#sponsorModal label,
+#card-errors {
+    font-size: 15px;
+}
+
+.spin {
+    margin-top: 20px;
+    font-size: 30px;
+    animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

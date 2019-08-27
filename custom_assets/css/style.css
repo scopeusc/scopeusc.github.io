@@ -37,6 +37,15 @@ img.img-social {
     margin-right: 20px;
 }
 
+img.img-social-square {
+    height: 20px;
+    max-width: 100%;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
 #social_images {
     text-align: center;
 }
